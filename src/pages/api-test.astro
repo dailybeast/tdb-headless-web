@@ -1,0 +1,46 @@
+---
+import { api } from '@/lib/api';
+
+let testResults = {
+  connection: false,
+  collections: null as string | null,
+  stories: null as string | null,
+  error: null as string | null
+};
+
+try {
+  // Test fetching a collection
+  const collectionResponse = await api.getCollection('homepage', { by: 'alias' });
+  
+  if (collectionResponse.data) {
+    testResults.connection = true;
+    testResults.collections = 'Success - Collection endpoint working';
+  }
+  
+  // Test fetching stories
+  const storiesResponse = await api.listStories({ limit: 5 });
+  
+  if (storiesResponse.data) {
+    testResults.stories = `Success - Found ${storiesResponse.data.length} stories`;
+  }
+  
+} catch (error) {
+  testResults.error = error instanceof Error ? error.message : 'Unknown error';
+}
+---
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>API Connection Test</title>
+</head>
+<body>
+  <h1>API Connection Test Results</h1>
+  <ul>
+    <li>Connection: {testResults.connection ? '✅' : '❌'}</li>
+    <li>Collections: {testResults.collections || '❌ Failed'}</li>
+    <li>Stories: {testResults.stories || '❌ Failed'}</li>
+    {testResults.error && <li>Error: {testResults.error}</li>}
+  </ul>
+</body>
+</html>

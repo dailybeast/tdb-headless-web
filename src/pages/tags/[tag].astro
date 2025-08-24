@@ -1,0 +1,174 @@
+---
+import Layout from '@/components/layout/Layout.astro';
+import { api } from '@/lib/api';
+import type { Article } from '@/lib/types';
+
+const { tag } = Astro.params;
+
+if (!tag) {
+  return Astro.redirect('/404');
+}
+
+const page = Number(Astro.url.searchParams.get('page')) || 1;
+const limit = 12;
+const offset = (page - 1) * limit;
+
+let articles: Article[] = [];
+let totalArticles = 0;
+let error: string | null = null;
+
+try {
+  const response = await api.listArticlesByTag(tag, { 
+    limit, 
+    offset,
+    sort_field: 'display_date',
+    sort_direction: 'desc'
+  });
+  
+  if (response.data) {
+    articles = response.data;
+    totalArticles = response.meta?.total || articles.length;
+  }
+} catch (err) {
+  console.error('Error fetching articles by tag:', err);
+  error = err instanceof Error ? err.message : 'Failed to load articles';
+}
+
+const totalPages = Math.ceil(totalArticles / limit);
+const hasNextPage = page < totalPages;
+const hasPrevPage = page > 1;
+
+function formatDate(dateString: string): string {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', { 
+    month: 'long', 
+    day: 'numeric', 
+    year: 'numeric' 
+  });
+}
+
+function getArticleUrl(article: Article): string {
+  return article.website_url || article.canonical_url || `/article/${article._id}`;
+}
+
+function getImageUrl(article: Article): string {
+  if (article.promo_items?.basic?.url) {
+    return article.promo_items.basic.url;
+  }
+  if (article.promo_items?.basic?.additional_properties?.originalUrl) {
+    return article.promo_items.basic.additional_properties.originalUrl;
+  }
+  return 'https://via.placeholder.com/800x600/666/fff?text=No+Image';
+}
+
+const tagDisplay = tag.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+---
+
+<Layout title={`${tagDisplay} - The Looker`} description={`Articles tagged with ${tagDisplay}`}>
+  <div class="container mx-auto px-4 py-8">
+    <header class="mb-8">
+      <h1 class="text-4xl font-bold font-druk mb-2">
+        {tagDisplay}
+      </h1>
+      <p class="text-muted-foreground">
+        {totalArticles} {totalArticles === 1 ? 'article' : 'articles'} found
+      </p>
+    </header>
+
+    {error && (
+      <div class="mb-8 p-4 bg-destructive/10 text-destructive rounded-lg">
+        <p class="font-semibold">Unable to load articles</p>
+        <p class="text-sm mt-1">{error}</p>
+      </div>
+    )}
+
+    {articles.length > 0 ? (
+      <>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          {articles.map((article) => (
+            <article>
+              <a href={getArticleUrl(article)} class="block group">
+                <div class="aspect-[16/10] mb-4 overflow-hidden rounded-lg bg-muted">
+                  <img 
+                    src={getImageUrl(article)}
+                    alt={article.promo_items?.basic?.alt_text || article.headlines.basic}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="space-y-2">
+                  {article.taxonomy?.primary_section && (
+                    <div class="text-xs text-primary font-medium uppercase tracking-wide">
+                      {article.taxonomy.primary_section.name}
+                    </div>
+                  )}
+                  <h2 class="text-xl font-bold font-druk leading-tight group-hover:text-primary transition-colors line-clamp-2">
+                    {article.headlines.basic}
+                  </h2>
+                  {article.subheadlines?.basic && (
+                    <p class="text-sm text-muted-foreground line-clamp-2">
+                      {article.subheadlines.basic}
+                    </p>
+                  )}
+                  <div class="flex items-center text-xs text-muted-foreground mt-3">
+                    {article.credits?.by?.[0]?.name && (
+                      <>
+                        <span>By {article.credits.by[0].name}</span>
+                        <span class="mx-2">•</span>
+                      </>
+                    )}
+                    <time>{formatDate(article.display_date || article.publish_date)}</time>
+                  </div>
+                </div>
+              </a>
+            </article>
+          ))}
+        </div>
+
+        {totalPages > 1 && (
+          <nav class="flex justify-center items-center space-x-4">
+            {hasPrevPage ? (
+              <a 
+                href={`/tags/${tag}?page=${page - 1}`}
+                class="px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
+              >
+                Previous
+              </a>
+            ) : (
+              <span class="px-4 py-2 bg-muted text-muted-foreground rounded-lg cursor-not-allowed">
+                Previous
+              </span>
+            )}
+            
+            <span class="text-sm text-muted-foreground">
+              Page {page} of {totalPages}
+            </span>
+            
+            {hasNextPage ? (
+              <a 
+                href={`/tags/${tag}?page=${page + 1}`}
+                class="px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
+              >
+                Next
+              </a>
+            ) : (
+              <span class="px-4 py-2 bg-muted text-muted-foreground rounded-lg cursor-not-allowed">
+                Next
+              </span>
+            )}
+          </nav>
+        )}
+      </>
+    ) : (
+      <div class="text-center py-12">
+        <p class="text-muted-foreground">No articles found for this tag.</p>
+        <a 
+          href="/" 
+          class="inline-block mt-4 text-primary hover:text-primary/80 transition-colors"
+        >
+          Return to homepage
+        </a>
+      </div>
+    )}
+  </div>
+</Layout>

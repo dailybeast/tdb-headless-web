@@ -1,0 +1,12 @@
+---
+import type { TextBlock } from '@/lib/types';
+
+interface Props {
+  block: TextBlock;
+  class?: string;
+}
+
+const { block, class: className } = Astro.props;
+---
+
+<div class={`prose prose-lg max-w-none ${className || ''}`} set:html={block.content} />

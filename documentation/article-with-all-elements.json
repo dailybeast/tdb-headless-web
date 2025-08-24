@@ -1,0 +1,1773 @@
+{
+  "_id": "CETALBJBHZEPDHJJYZK6MY2BWE",
+  "additional_properties": {
+    "has_published_copy": true,
+    "is_published": true,
+    "publish_date": "2025-04-30T21:55:01.382Z"
+  },
+  "address": {},
+  "canonical_website": "thedailybeast",
+  "content_elements": [
+    {
+      "_id": "PUMBCXRSUZHITMAKTGEBIMTMBE",
+      "additional_properties": {},
+      "content": "Lorem ipsum odor amet, consectetuerá adipiscing elit. Taciti inceptos aliquet leo donec massa nibh eget hendrerit quisque. Primis mattis curae iaculis donec cubilia finibus purus. Felis sit id ac class proin. ",
+      "type": "text"
+    },
+    {
+      "_id": "UHHCKS6GCJG3TIITW47B7B4PWE",
+      "additional_properties": {},
+      "content": "VIDEO LEAD ART",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "_id": "24YRSF54WBE2DB47OWOCCEJBGQ",
+      "additional_properties": {},
+      "content": "Featured Media Tab",
+      "type": "text"
+    },
+    {
+      "_id": "CLMH3DL43FBUVB7ODB7GFUUXBI",
+      "additional_properties": {},
+      "content": "video",
+      "type": "text"
+    },
+    {
+      "_id": "Q63MDVL24NFFFKJKD4TA6RTT34",
+      "additional_properties": {},
+      "content": "You will still ",
+      "type": "text"
+    },
+    {
+      "_id": "MWF4MBPHIJCRPJKHS6OE4T4ZTQ",
+      "additional_properties": {},
+      "content": "Integer porttitor lobortis facilisis venenatis eros facilisis est adipiscing. Aliquet per elit phasellus ultricies; condimentum efficitur. Ligula parturient ullamcorper consectetur etiam a posuere tortor volutpat pulvinar. Praesent tempor aliquet dis vel penatibus imperdiet sit. Ridiculus aliquet nunc donec; senectus aliquam nibh cursus.",
+      "type": "text"
+    },
+    {
+      "_id": "CD74R5NUXBBZJG2OUBSI2VDO24",
+      "additional_properties": {},
+      "content": "Heading 2",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "_id": "U2Y7ILCXKBBYHO52URZKSUO3CY",
+      "additional_properties": {},
+      "content": "Lorem ipsum odor amet, consectetuerá adipiscing elit. Taciti inceptos aliquet leo donec massa nibh eget hendrerit quisque. Primis mattis curae iaculis donec cubilia finibus purus. Felis sit id ac class proin.",
+      "type": "text"
+    },
+    {
+      "_id": "RTEOLONSJRHXZMNL6V5WJQJBBI",
+      "additional_properties": {},
+      "content": "Heading 3",
+      "level": 3,
+      "type": "header"
+    },
+    {
+      "_id": "G7EEFVEVW5D3PB7D3BYPK3ZI4U",
+      "additional_properties": {},
+      "content": "Lorem ipsum odor amet, consectetuerá adipiscing elit. Taciti inceptos aliquet leo donec massa nibh eget hendrerit quisque. Primis mattis curae iaculis donec cubilia finibus purus. Felis sit id ac class proin.",
+      "type": "text"
+    },
+    {
+      "_id": "CDWRWFVHVJHBFJVFWKPY27E2VE",
+      "additional_properties": {
+        "language": {
+          "code": "en",
+          "region": "US"
+        }
+      },
+      "citation": {
+        "content": "Ezra Latina",
+        "type": "text"
+      },
+      "content_elements": [
+        {
+          "_id": "MCUFRNFCORDJHMS47TIQB7PFKE",
+          "additional_properties": {},
+          "content": "This training article contains every embed type.  Hopefully they all render correctly.",
+          "type": "text"
+        }
+      ],
+      "subtype": "pullquote",
+      "type": "quote"
+    },
+    {
+      "_id": "AUAQM7IRPRA6LANB4EAKW7CJQ4",
+      "additional_properties": {},
+      "content": "Mauris egestas elit sem tristique mattis condimentum. Conubia mus integer himenaeos porttitor magnis. Magnis aenean tortor, velit lacus dui tristique torquent. Sodales leo finibus feugiat metus elit lectus parturient iaculis. Sapien vehicula leo dictum posuere, bibendum torquent.",
+      "type": "text"
+    },
+    {
+      "_id": "DFQIXIURDJHY5JWCW77RM3ZG6I",
+      "additional_properties": {},
+      "content": "BlockQuote",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "_id": "65RJJWK4LJDWXCC6TZKVOEPU5Y",
+      "additional_properties": {},
+      "content": "Lorem ipsum odor amet, consectetuerá adipiscing elit. Taciti inceptos aliquet leo donec massa nibh eget hendrerit quisque. Primis mattis curae iaculis donec cubilia finibus purus. Felis sit id ac class proin.",
+      "type": "text"
+    },
+    {
+      "_id": "PNRCXU5KDRAPBAEKF26FLSIWTA",
+      "additional_properties": {
+        "language": {
+          "code": "en",
+          "region": "US"
+        }
+      },
+      "citation": {
+        "content": "Someone Quotable",
+        "type": "text"
+      },
+      "content_elements": [
+        {
+          "_id": "BRRZSLHJXVAT7FMTADXCTHHRZI",
+          "additional_properties": {},
+          "content": "Montes nec sapien congue sem vehicula laoreet. Facilisi parturient neque cubilia hac vel penatibus. Congue potenti lorem eu hac dui suscipit tellus. ",
+          "type": "text"
+        }
+      ],
+      "subtype": "blockquote",
+      "type": "quote"
+    },
+    {
+      "_id": "U2P3TPQREZGLHPJ7IYHW4C6HO4",
+      "additional_properties": {},
+      "content": "Integer porttitor lobortis facilisis venenatis eros facilisis est adipiscing. Aliquet per elit phasellus ultricies; condimentum efficitur. Ligula parturient ullamcorper consectetur etiam a posuere tortor volutpat pulvinar. Praesent tempor aliquet dis vel penatibus imperdiet sit. Ridiculus aliquet nunc donec; senectus aliquam nibh cursus.",
+      "type": "text"
+    },
+    {
+      "_id": "55YOAOXXKRAJFMILHS74DPBGLA",
+      "additional_properties": {},
+      "content": "Fancy Link",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "_id": "5J5JVPBHWBER7O3PPDDU74ZVIA",
+      "items": [
+        {
+          "_id": "5NTJPRGB6BCUDB4QFO6RE73TGI",
+          "additional_properties": {
+            "indent": 0
+          },
+          "alignment": "left",
+          "content": "use Related Items tab at left",
+          "type": "text"
+        },
+        {
+          "_id": "YYBNKR4MXFCL3N3G6GKJZ2LRW4",
+          "additional_properties": {
+            "indent": 0
+          },
+          "alignment": "left",
+          "content": "Under “Stories” click “Add a story”",
+          "type": "text"
+        },
+        {
+          "_id": "QBAT2HP46NBT5DBHNKY2AH4MQQ",
+          "additional_properties": {
+            "indent": 0
+          },
+          "alignment": "left",
+          "content": "use keyword, author name or slug (ex: i-was-gifted-to-diddy-what-i-saw-still-haunts-me) and select",
+          "type": "text"
+        },
+        {
+          "_id": "FMIPMGA4FZCEVIBW7XKWEEV5EA",
+          "additional_properties": {
+            "indent": 0
+          },
+          "alignment": "left",
+          "content": "component is generated",
+          "type": "text"
+        },
+        {
+          "_id": "CJBQKFWTSFEJTFSAIMFT3VY4VM",
+          "additional_properties": {
+            "indent": 0
+          },
+          "alignment": "left",
+          "content": "click/drag between paragraphs in body to place.",
+          "type": "text"
+        }
+      ],
+      "list_type": "unordered",
+      "type": "list"
+    },
+    {
+      "additional_properties": {
+        "has_published_copy": true,
+        "is_published": true,
+        "publish_date": "2024-08-29T19:40:23.853Z"
+      },
+      "address": {},
+      "canonical_website": "thedailybeast",
+      "content_elements": [
+        {
+          "_id": "JRP2FLBAL5ET3JNJJZGUYBUYUQ",
+          "additional_properties": {},
+          "content": "Ann Coulter may love comedy more than she hates liberals. I know, because back in the early months of 2001, she and I were friends.",
+          "type": "text"
+        },
+        {
+          "_id": "GWZUABLGHBEO5KGT3ZZBH7VNOU",
+          "additional_properties": {},
+          "content": "We met in a private internet community called “The Stump,” launched in 2000 by Jay Kogen, who won an Emmy for writing a <i>Frasier</i> episode. The Stump was populated with TV comedy writers and funny actors. It was a free-wheeling conversation space and when Coulter joined, some members of the Stump did not welcome the brash conservative warmly. But I’d read her book, <i>High Crimes and Misdemeanors: The Case Against Bill Clinton</i>, and agreed with a lot of it. Also, to paraphrase Lou Grant, I like brash.",
+          "type": "text"
+        },
+        {
+          "_id": "SJGAL5KGHFF4JFTC5ETMBOCVZY",
+          "additional_properties": {},
+          "content": "Coulter didn’t stick around the Stump for long so I reached out to her on my own. We became AOL Instant Messaging buddies for three reasons: (1) she liked that I’d worked on <i>Letterman</i>, <i>The Simpsons,</i> and created the ABC sitcom <i>Sabrina, the Teenage Witch</i>; (2) Coulter was a night owl and her East Coast 2 a.m. was my West Coast 11 p.m.; and (3) I shared a first name with Coulter’s mother.",
+          "type": "text"
+        },
+        {
+          "_id": "G4WKTDQKKNGNXEJX4OWUKQREJM",
+          "referent": {
+            "id": "G4WKTDQKKNGNXEJX4OWUKQREJM",
+            "provider": "",
+            "type": "story"
+          },
+          "type": "reference",
+          "additional_properties": {
+            "_do_not_inflate": true
+          }
+        },
+        {
+          "_id": "PKSRWFE5LJDB3JCV6AKJNVJEN4",
+          "additional_properties": {},
+          "content": "Our online chats in the spring of 2001 focused mainly on writing and boys. Coulter was single and looking to date. She even told me about a make-out session she’d recently enjoyed with a writer for <i>The New York Times</i>. (Oh, how times have changed!)",
+          "type": "text"
+        },
+        {
+          "_id": "A2MFSQITQRGRFA3GI5667YAQSU",
+          "additional_properties": {},
+          "content": "",
+          "type": "text"
+        },
+        {
+          "_id": "ALJOSIBPENAIVMAWEO5SWIQ3PQ",
+          "additional_properties": {},
+          "content": "Still, our budding friendship never flowered. That September, al-Qaeda terrorists from Saudi Arabia, United Arab Emirates, Lebanon, and Egypt hijacked planes and flew them into the World Trade Center and the Pentagon. We were all emotional in our responses to that terrifying and deadly attack. But Coulter’s response was extreme.",
+          "type": "text"
+        },
+        {
+          "_id": "D2GW6OQGZNCWHGOJOVN34KFGSY",
+          "additional_properties": {},
+          "content": "“We should invade their countries, kill their leaders and convert them to Christianity.” she wrote in a column for the National Review Online headlined “<a href=\"https://web.archive.org/web/20010914225811/http://www.nationalreview.com/coulter/coulter091301.shtml\">This is War</a>.”",
+          "type": "text"
+        },
+        {
+          "_id": "GBJUSDO2MBGULLBSQQGRPQE4VM",
+          "additional_properties": {},
+          "content": "That seemed to be a turning point for Coulter. I stopped our chats since I did not find her Christofascist Islamophobia endearing... although a lot of people did. In fact, making outrageous and often violent statements quickly became Coulter’s signature move.",
+          "type": "text"
+        },
+        {
+          "_id": "RM6BEZG7XRF3HJEDQ6VZCS4VXU",
+          "referent": {
+            "id": "RM6BEZG7XRF3HJEDQ6VZCS4VXU",
+            "provider": "",
+            "referent_properties": {},
+            "type": "image"
+          },
+          "type": "reference",
+          "additional_properties": {
+            "_do_not_inflate": true
+          }
+        },
+        {
+          "_id": "6DTVLCKXLVEQ5FNGOQRRY4YJGY",
+          "additional_properties": {},
+          "content": "Despite outrage being her bread-and-butter, Coulter continued to believe comedy is her jam. In her 2018 book <i>Resistance is Futile!</i>, Coulter thanks three comedy writers in her acknowledgments. They include Melanie Graham, who Coulter points out “was formerly addicted to drugs as she is currently addicted to all things ME (note to people on twelve-step programs: The thirteenth step is reading all my books and subscribing to the higher power of ME).” Coulter also mentions Ned Rice, noting that he wrote for Jay Leno, Conan O’Brien and Joan Rivers, among others, before adding, “Despite his pedigree, I’ve never really needed his input.” HAHAHA. And finally she thanks stand-up Rodney Lee Conover. (Never heard of him.)",
+          "type": "text"
+        },
+        {
+          "_id": "LQERAF5ADZHMPALRUIRNICE2KU",
+          "additional_properties": {},
+          "content": "Wanting to cozy up to funny people helps explain why Coulter agreed to participate in <a href=\"https://www.thedailybeast.com/ann-coulter-roast-goes-viral-as-internet-gets-revenge-for-gus-walz\">Rob Lowe’s 2016 Comedy Central Roast</a>. Insults flew fast that night. “Ann Coulter has written 11 books—12 if you count Mein Kampf,” joked Nikki Glaser. Pete Davidson piled on. “Last year we had Martha Stewart, who sells sheets, and this year we have Ann Coulter, who cuts eye-holes in them.” Even the singer Jewel—soulful, kind-hearted Jewel!—expressed her delight in the hate being heaped on Coulter.",
+          "type": "text"
+        },
+        {
+          "_id": "DXV3ZXVYJJEO7CTHBNXTIOSRBQ",
+          "additional_properties": {},
+          "content": "When Coulter got to the podium, she had her chance to hit back. Instead, she made jokes like, “I’m hoping to persuade you all to vote for Trump, but most of all I want you [to vote], David.” She pointed at the host, David Spade. “Because it would prove the media is lying when they say that Trump won’t get the vote of a single [repeats his last name.]” To be clear, this racist slur was not given to Coulter by Comedy Central’s writing staff. Coulter<a href=\"https://www.tmz.com/watch/0-zdhmg6qd/\"> proudly insisted to TMZ Live</a> that she wrote all her own jokes with the help of “a few friends.”",
+          "type": "text"
+        },
+        {
+          "_id": "B6IDUSERDVM5DC6PBRULZQIS7I",
+          "referent": {
+            "id": "B6IDUSERDVM5DC6PBRULZQIS7I",
+            "provider": "",
+            "type": "story"
+          },
+          "type": "reference",
+          "additional_properties": {
+            "_do_not_inflate": true
+          }
+        },
+        {
+          "_id": "XXMSWCNWJVGBPI3GKCETVYNZAQ",
+          "additional_properties": {},
+          "content": "",
+          "type": "text"
+        },
+        {
+          "_id": "W73XHIQ2J5CEBHZV5YQ4AZ4MBU",
+          "additional_properties": {},
+          "content": "At the end of the roast, Lowe summed up Coulter’s performance, saying, “Ann, after seeing your set tonight, I think we’ve all just witnessed the first bombing that you can’t blame on a Muslim.”",
+          "type": "text"
+        },
+        {
+          "_id": "TYPMTWDWMVD4RESDDCTJBABWJE",
+          "additional_properties": {},
+          "content": "It’s funny ’cause it’s true.",
+          "type": "text"
+        },
+        {
+          "_id": "QVQGGSOKZBBFJGRA4JL3IX2ENE",
+          "referent": {
+            "id": "QVQGGSOKZBBFJGRA4JL3IX2ENE",
+            "provider": "",
+            "referent_properties": {},
+            "type": "image"
+          },
+          "type": "reference",
+          "additional_properties": {
+            "_do_not_inflate": true
+          }
+        },
+        {
+          "_id": "J7BRH2C2UJENVLVPJR2ELUZA3Y",
+          "additional_properties": {},
+          "content": "The intention of comedy is to elicit a response which, in turn, creates an experience that is both connective and collective. That’s why we say people “share” a laugh. Coulter doesn’t understand that an insult that isn’t funny is just an insult. And saying things no one else would dare say could mean you’re rude, not funny. Coulter misses the comedic mark so often that even when she targets Donald Trump, she does it in a way that makes a liberal squirm.",
+          "type": "text"
+        },
+        {
+          "_id": "VUBXGM5OPNCXFB46QGXR3F23WE",
+          "additional_properties": {},
+          "content": "Coulter started off as a Donald Trump superfan, but broke up with him when he failed to live up to her exacting anti-Muslim standards. In February 2024, when someone on X<a href=\"https://www.thedailybeast.com/ann-coulter-best-thing-trump-could-do-for-america-is-die\"> asked how</a> Donald Trump could “help us take America back,” Coulter replied: “Maybe he could die?”",
+          "type": "text"
+        },
+        {
+          "_id": "62RK5C4DT5C4HDOOLAKF6AKSLI",
+          "additional_properties": {},
+          "content": "This was, of course, Coulter’s idea of a joke–outrageous and violent. It’s also tasteless and provocative. Am I saying that the FBI should investigate whether would-be Trump assassin Thomas Matthew Crooks followed Coulter on X and saw her quip? Nope. Not for me to say.",
+          "type": "text"
+        },
+        {
+          "_id": "N5LRSGFSMVFKBA4PAZQLEMSAJE",
+          "additional_properties": {},
+          "content": "But the most disappointment I’ve ever felt toward my former late-night AIM pal was when she became the first pundit <a href=\"https://www.thedailybeast.com/social-media-slams-ann-coulter-for-heartless-gus-walz-tweet\">to mock the son </a>of the vice presidential nominee for expressing his pride for his father. Gus Walz’s reaction at last week’s Democratic National Convention warmed the heart of anyone who had one. Coulter’s negative response to an emotional teenager was so warped and crude that even she had second thoughts. She removed the post, claiming, “I took it down as soon as someone told me he’s austistc (sic).”",
+          "type": "text"
+        },
+        {
+          "_id": "XBYJI4T5KZF5NC3QMWPOXHLSYU",
+          "additional_properties": {},
+          "content": "There’s so much wrong with this take. First, Coulter added a “but” and then tried to blame her tastelessness on others which negates the apology. Second, the Democrats calling Trump and JD Vance weird is both <a href=\"https://www.yahoo.com/entertainment/25-hilarious-memes-trump-vp-133021928.html\">hilariously funny</a> and factual. And third, Gwen and Tim Walz had previously released a statement that explained, “Gus has a non-verbal learning disorder in addition to an anxiety disorder and ADHD, conditions that millions of Americans also have.” Coulter’s description of Gus as “austistc” was not only grossly misspelled but grossly misinformed.",
+          "type": "text"
+        },
+        {
+          "_id": "J7JSAU2AUVACFJB77FKWRZMKPU",
+          "additional_properties": {},
+          "content": "In short, it was neither funny nor was it true.",
+          "type": "text"
+        },
+        {
+          "_id": "56QXBYZCMVD67AFXPCG35Q3X7E",
+          "additional_properties": {},
+          "content": "The best description of Coulter’s relationship with comedy is this, “No one alive will admit to having no sense of humor, but the fact is some people don’t.”",
+          "type": "text"
+        },
+        {
+          "_id": "KQIX5N5YR5G6NA2QDKOXWNEPH4",
+          "additional_properties": {},
+          "content": "These words were written by Coulter herself with no sense of irony.",
+          "type": "text"
+        },
+        {
+          "_id": "YBW7PWLCZJBNBMGJGNHX4NDKBM",
+          "additional_properties": {},
+          "content": "Now that’s funny.",
+          "type": "text"
+        }
+      ],
+      "copyright": "editorial",
+      "created_date": "2024-08-29T18:37:07.227Z",
+      "credits": {
+        "by": [
+          {
+            "referent": {
+              "id": "I72NRRRYX5NAVHW3AP2CXGUOUI",
+              "provider": "",
+              "referent_properties": {},
+              "type": "author"
+            },
+            "type": "reference",
+            "additional_properties": {
+              "_do_not_inflate": true
+            }
+          }
+        ]
+      },
+      "description": {
+        "basic": ""
+      },
+      "display_date": "2024-08-29T18:45:59.785Z",
+      "first_publish_date": "2024-08-29T18:45:59.785Z",
+      "geo": {},
+      "headlines": {
+        "basic": "My Late Night Ann Coulter Went Bonkers Long Before Gus Walz Slur",
+        "meta_title": "My Late Night Pal Ann Coulter Went Bonkers Long Before Gus Walz Slur",
+        "mobile": "My Pal Ann Coulter Went Bonkers Long Before Gus Walz Slur",
+        "native": "",
+        "print": "",
+        "table": "",
+        "tablet": "",
+        "web": "My Pal Ann Coulter Went Bonkers Long Before Gus Walz Slur"
+      },
+      "label": {
+        "rubric": {
+          "display": true,
+          "text": "DON’T HUMOR HER "
+        },
+        "special_content_flag": {
+          "display": true,
+          "text": "Opinion",
+          "url": ""
+        }
+      },
+      "language": "",
+      "last_updated_date": "2024-08-29T19:42:27.087Z",
+      "owner": {
+        "id": "sandbox.thedailybeast",
+        "sponsored": false
+      },
+      "planning": {
+        "scheduling": {},
+        "story_length": {
+          "character_count_actual": 6349,
+          "inch_count_actual": 7,
+          "line_count_actual": 45,
+          "word_count_actual": 1091
+        }
+      },
+      "promo_items": {
+        "1_1": {
+          "_id": "EJDUFM5KKFCAPKSSD6G2PPORLU",
+          "referent": {
+            "id": "EJDUFM5KKFCAPKSSD6G2PPORLU",
+            "provider": "",
+            "referent_properties": {},
+            "type": "image"
+          },
+          "type": "reference",
+          "additional_properties": {
+            "_do_not_inflate": true
+          }
+        },
+        "basic": {
+          "_id": "CW455HB4VZCSVJPV3BCMBNTSOI",
+          "referent": {
+            "id": "CW455HB4VZCSVJPV3BCMBNTSOI",
+            "provider": "",
+            "referent_properties": {},
+            "type": "image"
+          },
+          "type": "reference",
+          "additional_properties": {
+            "_do_not_inflate": true
+          }
+        }
+      },
+      "publish_date": "2024-08-29T19:42:26.971Z",
+      "related_content": {
+        "basic": [
+          {
+            "_id": "G4WKTDQKKNGNXEJX4OWUKQREJM",
+            "referent": {
+              "id": "G4WKTDQKKNGNXEJX4OWUKQREJM",
+              "provider": "",
+              "type": "story"
+            },
+            "type": "reference",
+            "additional_properties": {
+              "_do_not_inflate": true
+            }
+          },
+          {
+            "_id": "B6IDUSERDVM5DC6PBRULZQIS7I",
+            "referent": {
+              "id": "B6IDUSERDVM5DC6PBRULZQIS7I",
+              "provider": "",
+              "type": "story"
+            },
+            "type": "reference",
+            "additional_properties": {
+              "_do_not_inflate": true
+            }
+          }
+        ],
+        "clonedChildren": [],
+        "clonedFromParent": []
+      },
+      "revision": {
+        "branch": "default",
+        "editions": [
+          "default"
+        ],
+        "parent_id": "DSIPDLHVQNGO5PNLPTA4WC6EZE",
+        "published": true,
+        "revision_id": "TX3JH7ZUZNG4RBM6KYUO5LX66Y"
+      },
+      "source": {
+        "name": "thedailybeast",
+        "system": "composer"
+      },
+      "subheadlines": {
+        "basic": "If you find yourself laughing at Coulter mocking Gus Walz for loving his father, you just might be a bully too."
+      },
+      "subtype": "standard-tdb",
+      "taxonomy": {
+        "tags": [
+          {
+            "description": "Convention",
+            "slug": "convention",
+            "text": "Convention"
+          },
+          {
+            "description": "Ann Coulter",
+            "slug": "ann-coulter",
+            "text": "Ann Coulter"
+          }
+        ],
+        "sections": [
+          {
+            "type": "reference",
+            "referent": {
+              "id": "/politics",
+              "type": "section",
+              "website": "thedailybeast"
+            },
+            "additional_properties": {
+              "_do_not_inflate": true
+            }
+          }
+        ],
+        "sites": [
+          {
+            "type": "reference",
+            "referent": {
+              "id": "/politics",
+              "type": "section",
+              "website": "thedailybeast"
+            },
+            "additional_properties": {
+              "_do_not_inflate": true
+            }
+          }
+        ],
+        "primary_section": {
+          "type": "reference",
+          "referent": {
+            "id": "/politics",
+            "type": "section",
+            "website": "thedailybeast"
+          },
+          "additional_properties": {
+            "_do_not_inflate": true
+          }
+        },
+        "primary_site": {
+          "type": "reference",
+          "referent": {
+            "id": "/politics",
+            "type": "section",
+            "website": "thedailybeast"
+          },
+          "additional_properties": {
+            "_do_not_inflate": true
+          }
+        }
+      },
+      "type": "story",
+      "version": "0.10.10",
+      "_id": "5GRIMV2EY5E7ZMY6WUDOJQ7ULE",
+      "canonical_url": "/my-late-night-pal-ann-coulter-went-bonkers-long-before-gus-walz-slur/",
+      "websites": {
+        "thedailybeast": {
+          "website_url": "/my-late-night-pal-ann-coulter-went-bonkers-long-before-gus-walz-slur/",
+          "website_section": {
+            "type": "reference",
+            "referent": {
+              "id": "/politics",
+              "type": "section",
+              "website": "thedailybeast"
+            },
+            "additional_properties": {
+              "_do_not_inflate": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "QW65W6JFHZAFZPLDYDD3ULBWDQ",
+      "additional_properties": {},
+      "content": "<b>YouTube/JW Video Component </b>",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "_id": "V6YWQBOQDVHGPOUVJWCWAIJ3QE",
+      "embed": {
+        "config": {
+          "caption": "Famed beaver Nibi avoids eviction.",
+          "videoCode": "https://www.youtube.com/watch?v=9D2YZHc5QFA"
+        },
+        "id": "custom_powerup_1727894624664",
+        "url": "/"
+      },
+      "subtype": "videoplayer",
+      "type": "custom_embed"
+    },
+    {
+      "_id": "4LJS4GZFDNDPJBGK5VYYVLDZOQ",
+      "additional_properties": {},
+      "content": "JW uses Script Code",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "_id": "RV3MAKMCQBEY3PY7CIT2W63STI",
+      "embed": {
+        "config": {
+          "caption": "",
+          "videoCode": "<script src=\"https://cdn.jwplayer.com/players/yETov7tC-AjIcq1uW.js\"></script>"
+        },
+        "id": "custom_powerup_1727975158256",
+        "url": "/"
+      },
+      "subtype": "videoplayer",
+      "type": "custom_embed"
+    },
+    {
+      "_id": "CYSFCYCZ6JEONKCMWNRNCL2TIE",
+      "additional_properties": {},
+      "content": " ",
+      "type": "text"
+    },
+    {
+      "_id": "OGBBQUNVIZBZBK6GKFX7YQCHA4",
+      "additional_properties": {},
+      "content": "<b>Page Breaks:</b>",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "_id": "RD2CCX3WVZD7HEIMWXMM7F2WZM",
+      "additional_properties": {},
+      "content": "Egestas et lacus aliquet class penatibus pretium. Cubilia phasellus urna; finibus lectus ut aliquet. Arcu curae nibh feugiat, feugiat nulla faucibus",
+      "type": "text"
+    },
+    {
+      "_id": "NVIQZ6YGPBE4DN6ZMHEUIHWO2A",
+      "embed": {
+        "config": {
+          "content": {
+            "singleContent": {
+              "type": "default"
+            }
+          }
+        },
+        "id": "1npdor1dtasr4th",
+        "url": "/"
+      },
+      "subtype": "section_break",
+      "type": "custom_embed"
+    },
+    {
+      "_id": "AB54UTKK5BF7PJOZLQCFP5KY3M",
+      "additional_properties": {},
+      "content": "Egestas et lacus aliquet class penatibus pretium. Cubilia phasellus urna; finibus lectus ut aliquet. Arcu curae nibh feugiat, feugiat nulla faucibus",
+      "type": "text"
+    },
+    {
+      "_id": "AZZPDNKOVFGPLBW4TQM4H66SKI",
+      "embed": {
+        "config": {
+          "content": {
+            "singleContent": {
+              "question1": "PageBreak Component Small Type",
+              "type": "small"
+            }
+          }
+        },
+        "id": "7bk5dt7woyheaiy",
+        "url": "/"
+      },
+      "subtype": "section_break",
+      "type": "custom_embed"
+    },
+    {
+      "_id": "E7RORN33IZENFORD2PSWY3B2W4",
+      "additional_properties": {},
+      "content": "Egestas et lacus aliquet class penatibus pretium. Cubilia phasellus urna; finibus lectus ut aliquet. Arcu curae nibh feugiat, feugiat nulla faucibus",
+      "type": "text"
+    },
+    {
+      "_id": "FH26ZEVOTNF4LFE5RXMUCC3EWY",
+      "embed": {
+        "config": {
+          "content": {
+            "singleContent": {
+              "question1": "PageBreak Component Big Type",
+              "type": "big"
+            }
+          }
+        },
+        "id": "7dc7uh4nnw4vhc0u",
+        "url": "/"
+      },
+      "subtype": "section_break",
+      "type": "custom_embed"
+    },
+    {
+      "_id": "D7LZRUSHVNDNHFYYPJODTCKTCA",
+      "additional_properties": {},
+      "content": "Egestas et lacus aliquet class penatibus pretium. Cubilia phasellus urna; finibus lectus ut aliquet. Arcu curae nibh feugiat, feugiat nulla faucibus. Mauris egestas elit sem tristique mattis condimentum. Conubia mus integer himenaeos porttitor magnis. Magnis aenean tortor, velit lacus dui tristique torquent. Sodales leo finibus feugiat metus elit lectus parturient iaculis. Sapien vehicula leo dictum posuere, bibendum torquent. fsdf",
+      "type": "text"
+    },
+    {
+      "_id": "3TSHSEFPTRCWJIN4JLGZJNA32Y",
+      "additional_properties": {},
+      "content": "<b>Inline Image:</b>",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "_id": "7RYZ7DD5JJHTPISLQU6GRNJ6C4",
+      "additional_properties": {
+        "countryId": 226,
+        "fullSizeResizeUrl": "/resizer/v2/7RYZ7DD5JJHTPISLQU6GRNJ6C4.JPG?auth=76c50b3dc9093557d8c442fa749f66826fea15469137f3f447ac34022677f049",
+        "galleries": [],
+        "ingestionMethod": "manual",
+        "iptc_job_identifier": "POOL",
+        "iptc_source": "Pool",
+        "mime_type": "image/jpeg",
+        "originalName": "2024-10-01T101509Z_1236182989_RC2MBAAJFY3K_RTRMADP_3_BRITAIN-ROYALS-WILLIAM.JPG",
+        "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.thedailybeast/7RYZ7DD5JJHTPISLQU6GRNJ6C4.JPG",
+        "proxyUrl": "/resizer/v2/7RYZ7DD5JJHTPISLQU6GRNJ6C4.JPG?auth=76c50b3dc9093557d8c442fa749f66826fea15469137f3f447ac34022677f049",
+        "published": true,
+        "resizeUrl": "/resizer/v2/7RYZ7DD5JJHTPISLQU6GRNJ6C4.JPG?auth=76c50b3dc9093557d8c442fa749f66826fea15469137f3f447ac34022677f049",
+        "restricted": false,
+        "takenOn": "2024-10-01T10:15:09Z",
+        "thumbnailResizeUrl": "/resizer/v2/7RYZ7DD5JJHTPISLQU6GRNJ6C4.JPG?auth=76c50b3dc9093557d8c442fa749f66826fea15469137f3f447ac34022677f049&width=300",
+        "version": 1,
+        "template_id": 1948
+      },
+      "address": {
+        "locality": "LONDON",
+        "country_name": "GBR"
+      },
+      "alt_text": "Britain's Prince William speaks to Gunnlaugur \"G\" Erlendsson, the CEO of ENSO, a UK-based tyre startup, developed specifically for electric vehicles, that was the 2023 Earthshot Prize Finalist, in London, Britain.",
+      "auth": {
+        "1": "76c50b3dc9093557d8c442fa749f66826fea15469137f3f447ac34022677f049"
+      },
+      "caption": "Britain's Prince William speaks to Gunnlaugur \"G\" Erlendsson, the CEO of ENSO, a UK-based tyre startup, developed specifically for electric vehicles, that was the 2023 Earthshot Prize Finalist, in London, Britain.",
+      "copyright": "PA",
+      "created_date": "2024-10-01T14:42:32Z",
+      "credits": {
+        "affiliation": [
+          {
+            "name": "Aaron Chown/Reuters",
+            "type": "author"
+          }
+        ],
+        "by": [
+          {
+            "byline": "Aaron Chown",
+            "name": "Aaron Chown",
+            "type": "author"
+          }
+        ]
+      },
+      "height": 4000,
+      "image_type": "photograph",
+      "last_updated_date": "2024-10-01T15:00:05Z",
+      "licensable": false,
+      "owner": {
+        "id": "sandbox.thedailybeast",
+        "sponsored": false
+      },
+      "slug": "BRITAIN-ROYALS/WILLIAM",
+      "source": {
+        "additional_properties": {
+          "editor": "photo center"
+        },
+        "edit_url": "https://sandbox.thedailybeast.arcpublishing.com/photo/7RYZ7DD5JJHTPISLQU6GRNJ6C4",
+        "system": "photo center"
+      },
+      "subtitle": "Britain's Prince William visits RAF Northolt",
+      "taxonomy": {
+        "associated_tasks": []
+      },
+      "type": "image",
+      "url": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.thedailybeast/7RYZ7DD5JJHTPISLQU6GRNJ6C4.JPG",
+      "version": "0.10.9",
+      "width": 6000,
+      "syndication": {},
+      "creditIPTC": "Aaron Chown/Reuters",
+      "country_name": "United Kingdom"
+    },
+    {
+      "_id": "DDVKPQYRB5BZTNAHGUDDKHDIZY",
+      "additional_properties": {},
+      "content": "",
+      "type": "text"
+    },
+    {
+      "_id": "KSGB7DJFUFBC7BIUHCFO3LPIPA",
+      "additional_properties": {},
+      "content": "Fames vel cubilia nisl eget congue non elit rutrum. Phasellus etiam orci odio efficitur iaculis. Inceptos egestas mauris eget convallis natoque pretium elit; pharetra finibus. Tellus tempus sodales risus ante nostra taciti. Fermentum pharetra nam dui eu cursus id. Litora natoque mattis consectetur feugiat feugiat; massa fermentum viverra. Faucibus class dictumst rutrum dictumst tempor eu. Porttitor suscipit sodales dui lacus ultrices ultrices. Pulvinar placerat potenti hac vitae platea.",
+      "type": "text"
+    },
+    {
+      "_id": "R75ZTP2PWRCKPKUARCXMWEPQLE",
+      "additional_properties": {},
+      "content": "Social Embed: Insert url / hit enter",
+      "type": "text"
+    },
+    {
+      "_id": "H7LEISQZJFG5TDDOMPTUHYWDJ4",
+      "additional_properties": {},
+      "content": "<b>Tweet:</b> ",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "type": "oembed_response",
+      "subtype": "twitter",
+      "_id": "Y425YJWKJ5DKXBWLMFZWBQPK4Y",
+      "raw_oembed": {
+        "url": "https://twitter.com/Tim_Walz/status/1841446025325601010",
+        "author_name": "Tim Walz",
+        "author_url": "https://twitter.com/Tim_Walz",
+        "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Last night, what JD Vance didn’t say said everything. <a href=\"https://t.co/0vmMwr0f37\">pic.twitter.com/0vmMwr0f37</a></p>&mdash; Tim Walz (@Tim_Walz) <a href=\"https://twitter.com/Tim_Walz/status/1841446025325601010?ref_src=twsrc%5Etfw\">October 2, 2024</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n\n",
+        "width": 550,
+        "height": null,
+        "type": "twitter",
+        "cache_age": "3153600000",
+        "provider_name": "Twitter",
+        "provider_url": "https://twitter.com",
+        "version": "1.0",
+        "_id": "https://x.com/Tim_Walz/status/1841446025325601010"
+      },
+      "referent": {
+        "id": "https://x.com/Tim_Walz/status/1841446025325601010",
+        "provider": "https://publish.x.com/oembed?url=",
+        "referent_properties": {},
+        "service": "oembed",
+        "type": "twitter"
+      }
+    },
+    {
+      "_id": "QHNA7EGRKZEFHEJ65TIVAOAVJI",
+      "additional_properties": {},
+      "content": "<b>Instagram (does not deep-link)</b>",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "type": "oembed_response",
+      "subtype": "instagram",
+      "_id": "PIXQHNSI25HGVONRKWD3BMINBU",
+      "raw_oembed": {
+        "version": "1.0",
+        "author_name": "woofitsgeorge",
+        "provider_name": "Instagram",
+        "provider_url": "https://www.instagram.com/",
+        "type": "instagram",
+        "width": 658,
+        "html": "<blockquote class=\"instagram-media\" data-instgrm-captioned data-instgrm-permalink=\"https://www.instagram.com/p/DAjBobjpBZe/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"14\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:16px;\"> <a href=\"https://www.instagram.com/p/DAjBobjpBZe/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> <div style=\" display: flex; flex-direction: row; align-items: center;\"> <div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"></div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"></div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"></div></div></div><div style=\"padding: 19% 0;\"></div> <div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewBox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https://www.w3.org/2000/svg\" xmlns:xlink=\"https://www.w3.org/1999/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"></path></g></g></g></svg></div><div style=\"padding-top: 8px;\"> <div style=\" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\">View this post on Instagram</div></div><div style=\"padding: 12.5% 0;\"></div> <div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\"><div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"></div> <div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"></div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"></div></div><div style=\"margin-left: 8px;\"> <div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"></div> <div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"></div></div><div style=\"margin-left: auto;\"> <div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"></div> <div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"></div> <div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"></div></div></div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;\"></div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;\"></div></div></a><p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\"><a href=\"https://www.instagram.com/p/DAjBobjpBZe/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;\" target=\"_blank\">A post shared by George The Mini Goldendoodle (@woofitsgeorge)</a></p></div></blockquote>\n<script async src=\"//platform.instagram.com/en_US/embeds.js\"></script>",
+        "thumbnail_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/461511744_830284209257090_7679551527338934086_n.jpg?stp=dst-jpg_e35_p480x480_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2QH7QO6ULmVMUPK3rKEdlHpUomKsv3Z54oOxzno6NjDKx_Oy8flgeiTUNEGqsm16nPc&_nc_ohc=OIo2svpjdccQ7kNvwHLKtTa&_nc_gid=T6kCIxvHyow8ExuqqvPLmQ&edm=AMO9-JQAAAAA&ccb=7-5&oh=00_AfTphBf5A02HL3kVG2sELbFfuEFMRw0JeT0dFGtemqNDZg&oe=687C961B&_nc_sid=cc8940",
+        "thumbnail_width": 480,
+        "thumbnail_height": 600,
+        "_id": "https://www.instagram.com/p/DAjBobjpBZe/"
+      },
+      "referent": {
+        "id": "https://www.instagram.com/p/DAjBobjpBZe/",
+        "provider": "https://graph.facebook.com/v8.0/instagram_oembed?url=",
+        "referent_properties": {},
+        "service": "oembed",
+        "type": "instagram"
+      }
+    },
+    {
+      "_id": "EAWZ4U3I7ZGZ3GTYJZBYLJRF5E",
+      "additional_properties": {},
+      "content": "Id natoque semper lectus sit consectetur. Tincidunt ultrices ligula ornare potenti, convallis sollicitudin potenti. Dictumst vel bibendum senectus mus posuere. Dictum odio praesent lacus eleifend lorem. ",
+      "type": "text"
+    },
+    {
+      "_id": "WCW2CQXE3RARRGDLCNTNMZBKHM",
+      "additional_properties": {},
+      "content": "",
+      "type": "text"
+    },
+    {
+      "_id": "7AR5BIZY3NBINARN45CWLSUSHY",
+      "additional_properties": {},
+      "content": "<b>Instagram REEL</b>",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "type": "oembed_response",
+      "subtype": "instagram",
+      "_id": "2YLVJDLNYRBXBNWRBI5JGDNIJE",
+      "raw_oembed": {
+        "version": "1.0",
+        "author_name": "woofitsgeorge",
+        "provider_name": "Instagram",
+        "provider_url": "https://www.instagram.com/",
+        "type": "instagram",
+        "width": 658,
+        "html": "<blockquote class=\"instagram-media\" data-instgrm-captioned data-instgrm-permalink=\"https://www.instagram.com/reel/DAqqTYaJDbf/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"14\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:16px;\"> <a href=\"https://www.instagram.com/reel/DAqqTYaJDbf/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> <div style=\" display: flex; flex-direction: row; align-items: center;\"> <div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"></div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"></div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"></div></div></div><div style=\"padding: 19% 0;\"></div> <div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewBox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https://www.w3.org/2000/svg\" xmlns:xlink=\"https://www.w3.org/1999/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"></path></g></g></g></svg></div><div style=\"padding-top: 8px;\"> <div style=\" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\">View this post on Instagram</div></div><div style=\"padding: 12.5% 0;\"></div> <div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\"><div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"></div> <div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"></div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"></div></div><div style=\"margin-left: 8px;\"> <div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"></div> <div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"></div></div><div style=\"margin-left: auto;\"> <div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"></div> <div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"></div> <div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"></div></div></div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;\"></div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;\"></div></div></a><p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\"><a href=\"https://www.instagram.com/reel/DAqqTYaJDbf/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;\" target=\"_blank\">A post shared by George The Mini Goldendoodle (@woofitsgeorge)</a></p></div></blockquote>\n<script async src=\"//platform.instagram.com/en_US/embeds.js\"></script>",
+        "thumbnail_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-15/502715264_508192872289299_3232105804039338122_n.jpg?stp=dst-jpg_e15_p640x640_tt6&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2QHJi5cUg-c2LB5Zr6wzq291Yfgvcj71VpGqS5JML2bmvd-XOMiaOowGf6rcfh4fisg&_nc_ohc=Vx7IgeTy-d4Q7kNvwFh8rbh&_nc_gid=xQK9Ts4pTVPJ9lZ4LZbFoA&edm=AMO9-JQAAAAA&ccb=7-5&oh=00_AfRQzuAa1qYhPqM8tncLtO2xNpcZtElXTcDC280DDf11tw&oe=687C892D&_nc_sid=cc8940",
+        "thumbnail_width": 640,
+        "thumbnail_height": 1137,
+        "_id": "https://www.instagram.com/reel/DAqqTYaJDbf/"
+      },
+      "referent": {
+        "id": "https://www.instagram.com/reel/DAqqTYaJDbf/",
+        "provider": "https://graph.facebook.com/v8.0/instagram_oembed?url=",
+        "referent_properties": {},
+        "service": "oembed",
+        "type": "instagram"
+      }
+    },
+    {
+      "_id": "F6DALCJ5DJEHBDY26MK3JA3TYA",
+      "additional_properties": {},
+      "content": "Erat conubia dolor nisl justo neque quam sit. Dignissim consequat netus pharetra libero varius inceptos imperdiet fusce. Vulputate dignissim quam erat nostra maximus sem semper fames. Aliquet cursus maximus tristique netus sociosqu ut? Elementum montes scelerisque ante bibendum nascetur.",
+      "type": "text"
+    },
+    {
+      "_id": "A2TTOJ6VQBBJXKWHA4GU7AYEQE",
+      "additional_properties": {},
+      "content": "<b>Facebook embed:</b>",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "type": "oembed_response",
+      "subtype": "facebook-post",
+      "_id": "5NZI5YM2FBAZREQ7P7COH6ZIWA",
+      "raw_oembed": {
+        "author_name": "The Daily",
+        "author_url": "https://www.facebook.com/thedailybeast",
+        "provider_url": "https://www.facebook.com",
+        "provider_name": "Facebook",
+        "html": "<div id=\"fb-root\"></div>\n<script async=\"1\" defer=\"1\" crossorigin=\"anonymous\" src=\"https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v23.0\"></script><div class=\"fb-post\" data-href=\"https://www.facebook.com/thedailybeast/posts/pfbid02KuMmmpZ3ZxL8qhL4E7P8gkmQqQYNoxcYFbYen8JZbnahX9VeJ9on9RQFScj6bL2Vl\" data-width=\"552\"><blockquote cite=\"https://graph.facebook.com/100059368248595/posts/904767498178850/\" class=\"fb-xfbml-parse-ignore\"><p>Ted Cruz&#039;s re-election hopes aren&#039;t looking good after a new report showed a significant change in its updated assessment of the race.</p>Posted by <a href=\"https://www.facebook.com/thedailybeast\">The Daily Beast</a> on&nbsp;<a href=\"https://graph.facebook.com/100059368248595/posts/904767498178850/\">Wednesday, October 2, 2024</a></blockquote></div>",
+        "type": "facebook-post",
+        "version": "1.0",
+        "width": 552,
+        "_id": "https://www.facebook.com/thedailybeast/posts/pfbid02KuMmmpZ3ZxL8qhL4E7P8gkmQqQYNoxcYFbYen8JZbnahX9VeJ9on9RQFScj6bL2Vl",
+        "locale": "en_US"
+      },
+      "referent": {
+        "id": "https://www.facebook.com/thedailybeast/posts/pfbid02KuMmmpZ3ZxL8qhL4E7P8gkmQqQYNoxcYFbYen8JZbnahX9VeJ9on9RQFScj6bL2Vl",
+        "provider": "https://graph.facebook.com/v8.0/oembed_post?url=",
+        "referent_properties": {
+          "locale": "en_US"
+        },
+        "service": "oembed",
+        "type": "facebook-post"
+      }
+    },
+    {
+      "_id": "2YMB4WWFUBBPZPFDY3URPPBRDE",
+      "additional_properties": {},
+      "content": "Montes nec sapien congue sem vehicula laoreet. Facilisi parturient neque cubilia hac vel penatibus. Congue potenti lorem eu hac dui suscipit tellus. ",
+      "type": "text"
+    },
+    {
+      "_id": "HTIS3HQLIBEL7HCUK7GHOBSQV4",
+      "additional_properties": {},
+      "content": "<b>TikTok</b>",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "type": "oembed_response",
+      "subtype": "tiktok",
+      "_id": "QK65DPKFPZAETEKERBHHESI4KA",
+      "raw_oembed": {
+        "version": "1.0",
+        "type": "tiktok",
+        "title": "#mrprada #fyp #foryou #fypシ #viral #funny #greenscreen",
+        "author_url": "https://www.tiktok.com/@mr.pradaofficial",
+        "author_name": "PRADA",
+        "width": "100%",
+        "height": "100%",
+        "html": "<blockquote class=\"tiktok-embed\" cite=\"https://www.tiktok.com/@mr.pradaofficial/video/7229358178058751278\" data-video-id=\"7229358178058751278\" data-embed-from=\"oembed\" style=\"max-width:605px; min-width:325px;\"> <section> <a target=\"_blank\" title=\"@mr.pradaofficial\" href=\"https://www.tiktok.com/@mr.pradaofficial?refer=embed\">@mr.pradaofficial</a> <p><a title=\"mrprada\" target=\"_blank\" href=\"https://www.tiktok.com/tag/mrprada?refer=embed\">#mrprada</a> <a title=\"fyp\" target=\"_blank\" href=\"https://www.tiktok.com/tag/fyp?refer=embed\">#fyp</a> <a title=\"foryou\" target=\"_blank\" href=\"https://www.tiktok.com/tag/foryou?refer=embed\">#foryou</a> <a title=\"fypシ\" target=\"_blank\" href=\"https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed\">#fypシ</a> <a title=\"viral\" target=\"_blank\" href=\"https://www.tiktok.com/tag/viral?refer=embed\">#viral</a> <a title=\"funny\" target=\"_blank\" href=\"https://www.tiktok.com/tag/funny?refer=embed\">#funny</a> <a title=\"greenscreen\" target=\"_blank\" href=\"https://www.tiktok.com/tag/greenscreen?refer=embed\">#greenscreen</a></p> <a target=\"_blank\" title=\"♬ original sound - PRADA - PRADA\" href=\"https://www.tiktok.com/music/original-sound-PRADA-7229358481579526954?refer=embed\">♬ original sound - PRADA - PRADA</a> </section> </blockquote> <script async src=\"https://www.tiktok.com/embed.js\"></script>",
+        "thumbnail_width": 576,
+        "thumbnail_height": 1024,
+        "thumbnail_url": "https://p19-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-p-0068-tx/12627a498b3a477595b7e0cc1572e52c~tplv-tiktokx-origin.image?dr=9636&x-expires=1752786000&x-signature=rtPi1kinpBkIhca70UchNOojru0%3D&t=4d5b0474&ps=13740610&shp=b59d6b55&shcp=43f4a2f9&idc=useast5",
+        "provider_url": "https://www.tiktok.com",
+        "provider_name": "TikTok",
+        "author_unique_id": "mr.pradaofficial",
+        "embed_product_id": "7229358178058751278",
+        "embed_type": "video",
+        "_id": "https://www.tiktok.com/@mr.pradaofficial/video/7229358178058751278"
+      },
+      "referent": {
+        "id": "https://www.tiktok.com/@mr.pradaofficial/video/7229358178058751278",
+        "provider": "https://www.tiktok.com/oembed?url=",
+        "referent_properties": {},
+        "service": "oembed",
+        "type": "tiktok"
+      }
+    },
+    {
+      "_id": "EYZWVP7QYFCXFMRYLZJ2S5SADE",
+      "additional_properties": {},
+      "content": "Cubilia placerat sodales mollis fusce etiam nisi fusce in. Fermentum blandit ullamcorper pharetra penatibus cursus curae libero pharetra. Magna faucibus parturient maximus urna varius a ridiculus. Luctus scelerisque risus non sollicitudin sociosqu senectus finibus sodales. Erat metus quam sem mauris auctor ante. Consectetur interdum rutrum accumsan dolor convallis cras nascetur.",
+      "type": "text"
+    },
+    {
+      "_id": "2SVHWCYKN5FLLLJKC24FMMCFAA",
+      "additional_properties": {},
+      "content": "PDF embed-HTML component",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "_id": "OR3EJCPVCRCK3E5ZNW6LNGHIWM",
+      "content": "<iframe\n  src=\"https://embed.documentcloud.org/documents/23693505-borrelli-complaint/?embed=1&amp;responsive=1&amp;title=1\"\n  title=\"Borrelli complaint (Hosted by DocumentCloud)\"\n  width=\"700\"\n  height=\"905\"\n  style=\"border: 1px solid #aaa; width: 100%; height: 800px; height: calc(100vh - 100px);\"\n  sandbox=\"allow-scripts allow-same-origin allow-popups allow-forms allow-popups-to-escape-sandbox\"\n></iframe>\n",
+      "type": "raw_html"
+    },
+    {
+      "_id": "ZFXXS3TCFJCC7DPDIACFT6H4K4",
+      "additional_properties": {},
+      "content": "HTML Component / Truth Social Post",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "_id": "3P7YGA35CBHCFA7DOA4XJS33SM",
+      "content": "<iframe src=\"https://truthsocial.com/@realDonaldTrump/114263461013940328/embed\" class=\"truthsocial-embed\" style=\"max-width: 100%; border: 0\" width=\"600\" allowfullscreen=\"allowfullscreen\"></iframe><script src=\"https://truthsocial.com/embed.js\" async=\"async\"></script>",
+      "type": "raw_html"
+    },
+    {
+      "_id": "TENLSRSMD5GFDHYGIR2BMHPHPM",
+      "additional_properties": {},
+      "content": "Audio Embed from Soundcloud use HTML/Embed code",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "_id": "6BT2U45NWRDARCLQOAFUTLYFNA",
+      "content": "<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1689571428&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/thedailybeast\" title=\"The Daily Beast\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">The Daily Beast</a> · <a href=\"https://soundcloud.com/thedailybeast/september-2022-conversation-between-jonathan-majors-and-grace-jabbari-binary\" title=\"September 2022 conversation between Jonathan Majors and Grace Jabbari\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">September 2022 conversation between Jonathan Majors and Grace Jabbari</a></div>",
+      "type": "raw_html"
+    },
+    {
+      "_id": "MEOZ6VPHJFDTPGFAYEQ6UO7AEA",
+      "additional_properties": {},
+      "content": "Cubilia placerat sodales mollis fusce etiam nisi fusce in. Fermentum blandit ullamcorper pharetra penatibus cursus curae libero pharetra. Magna faucibus parturient maximus urna varius a ridiculus. Luctus scelerisque risus non sollicitudin sociosqu senectus finibus sodales. Erat metus quam sem mauris auctor ante. Consectetur interdum rutrum accumsan dolor convallis cras nascetur.",
+      "type": "text"
+    },
+    {
+      "_id": "MLZ2NSOTD5DNJKLP5VY27H5TQU",
+      "additional_properties": {},
+      "content": "HTML Component / BluSky",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "_id": "Y2KXXXFLPFCURJVDBUE45XSXAY",
+      "content": "<blockquote class=\"bluesky-embed\" data-bluesky-uri=\"at://did:plc:y4qouseuxn3ubsd3g7xjct66/app.bsky.feed.post/3llrbw5ilts22\" data-bluesky-cid=\"bafyreifcn7kcw5u7cynepkahokfhqqtt2237buu2uqqew3w4ntegnnrfy4\" data-bluesky-embed-color-mode=\"system\"><p lang=\"en\">Showing some signs of fatigue, but Corey Booker is still going strong into his 18th hour on the Senate floor.<br><br><a href=\"https://bsky.app/profile/did:plc:y4qouseuxn3ubsd3g7xjct66/post/3llrbw5ilts22?ref_src=embed\">[image or embed]</a></p>&mdash; Tim Karr (<a href=\"https://bsky.app/profile/did:plc:y4qouseuxn3ubsd3g7xjct66?ref_src=embed\">@timkarr.bsky.social</a>) <a href=\"https://bsky.app/profile/did:plc:y4qouseuxn3ubsd3g7xjct66/post/3llrbw5ilts22?ref_src=embed\">April 1, 2025 at 12:24 PM</a></blockquote><script async src=\"https://embed.bsky.app/static/embed.js\" charset=\"utf-8\"></script>",
+      "type": "raw_html"
+    },
+    {
+      "_id": "7CS3WR4THVARNCBGHL2ZMEBAQU",
+      "additional_properties": {},
+      "content": "Cubilia placerat sodales mollis fusce etiam nisi fusce in. Fermentum blandit ullamcorper pharetra penatibus cursus curae libero pharetra. Magna faucibus parturient maximus urna varius a ridiculus. Luctus scelerisque risus non sollicitudin sociosqu senectus finibus sodales. Erat metus quam sem mauris auctor ante. Consectetur interdum rutrum accumsan dolor convallis cras nascetur.",
+      "type": "text"
+    },
+    {
+      "_id": "ZQ3ZHGBCTVHDTIXZJLOD5S65FU",
+      "additional_properties": {},
+      "content": "HTML Component / Threads Post",
+      "level": 2,
+      "type": "header"
+    },
+    {
+      "_id": "3QEWXOVQOBEV3JLSQ6M2VWLZWI",
+      "content": "<blockquote class=\"text-post-media\" data-text-post-permalink=\"https://www.threads.net/@amit10061981/post/DH4xP96hEdX\" data-text-post-version=\"0\" id=\"ig-tp-DH4xP96hEdX\" style=\" background:#FFF; border-width: 1px; border-style: solid; border-color: #00000026; border-radius: 16px; max-width:540px; margin: 1px; min-width:270px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"> <a href=\"https://www.threads.net/@amit10061981/post/DH4xP96hEdX\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%; font-family: -apple-system, BlinkMacSystemFont, sans-serif;\" target=\"_blank\"> <div style=\" padding: 40px; display: flex; flex-direction: column; align-items: center;\"><div style=\" display:block; height:32px; width:32px; padding-bottom:20px;\"> <svg aria-label=\"Threads\" height=\"32px\" role=\"img\" viewBox=\"0 0 192 192\" width=\"32px\" xmlns=\"http://www.w3.org/2000/svg\"> <path d=\"M141.537 88.9883C140.71 88.5919 139.87 88.2104 139.019 87.8451C137.537 60.5382 122.616 44.905 97.5619 44.745C97.4484 44.7443 97.3355 44.7443 97.222 44.7443C82.2364 44.7443 69.7731 51.1409 62.102 62.7807L75.881 72.2328C81.6116 63.5383 90.6052 61.6848 97.2286 61.6848C97.3051 61.6848 97.3819 61.6848 97.4576 61.6855C105.707 61.7381 111.932 64.1366 115.961 68.814C118.893 72.2193 120.854 76.925 121.825 82.8638C114.511 81.6207 106.601 81.2385 98.145 81.7233C74.3247 83.0954 59.0111 96.9879 60.0396 116.292C60.5615 126.084 65.4397 134.508 73.775 140.011C80.8224 144.663 89.899 146.938 99.3323 146.423C111.79 145.74 121.563 140.987 128.381 132.296C133.559 125.696 136.834 117.143 138.28 106.366C144.217 109.949 148.617 114.664 151.047 120.332C155.179 129.967 155.42 145.8 142.501 158.708C131.182 170.016 117.576 174.908 97.0135 175.059C74.2042 174.89 56.9538 167.575 45.7381 153.317C35.2355 139.966 29.8077 120.682 29.6052 96C29.8077 71.3178 35.2355 52.0336 45.7381 38.6827C56.9538 24.4249 74.2039 17.11 97.0132 16.9405C119.988 17.1113 137.539 24.4614 149.184 38.788C154.894 45.8136 159.199 54.6488 162.037 64.9503L178.184 60.6422C174.744 47.9622 169.331 37.0357 161.965 27.974C147.036 9.60668 125.202 0.195148 97.0695 0H96.9569C68.8816 0.19447 47.2921 9.6418 32.7883 28.0793C19.8819 44.4864 13.2244 67.3157 13.0007 95.9325L13 96L13.0007 96.0675C13.2244 124.684 19.8819 147.514 32.7883 163.921C47.2921 182.358 68.8816 191.806 96.9569 192H97.0695C122.03 191.827 139.624 185.292 154.118 170.811C173.081 151.866 172.51 128.119 166.26 113.541C161.776 103.087 153.227 94.5962 141.537 88.9883ZM98.4405 129.507C88.0005 130.095 77.1544 125.409 76.6196 115.372C76.2232 107.93 81.9158 99.626 99.0812 98.6368C101.047 98.5234 102.976 98.468 104.871 98.468C111.106 98.468 116.939 99.0737 122.242 100.233C120.264 124.935 108.662 128.946 98.4405 129.507Z\" /></svg></div><div style=\" font-size: 15px; line-height: 21px; color: #000000; font-weight: 600; \"> View on Threads</div></div></a></blockquote>\n<script async src=\"https://www.threads.net/embed.js\"></script>",
+      "type": "raw_html"
+    },
+    {
+      "_id": "RZMURCDOBBFL5EHTH72SMABALI",
+      "additional_properties": {},
+      "content": "",
+      "type": "text"
+    }
+  ],
+  "copyright": "editorial",
+  "created_date": "2024-10-02T17:07:40.598Z",
+  "credits": {
+    "by": [
+      {
+        "_id": "C7WBIYLNV5OH3FIWH24UM47PMI",
+        "type": "author",
+        "version": "0.5.8",
+        "name": "Ezra Latina",
+        "org": "New York",
+        "image": {
+          "url": "https://author-service-images-sandbox-us-east-1.publishing.aws.arc.pub/thedailybeast/a4a09de1-101f-4075-8957-fc7d8e8332ac.png",
+          "version": "0.5.8"
+        },
+        "description": "this is my short bio updated just to test",
+        "slug": "ezra-latina",
+        "social_links": [
+          {
+            "site": "email",
+            "url": "ezra.latina@thedailybeast.com"
+          },
+          {
+            "site": "twitter",
+            "url": "@twitter"
+          },
+          {
+            "site": "pinterest",
+            "url": "my-new-pinterest-handle"
+          },
+          {
+            "site": "linkedin",
+            "url": "https://www.linkedin.com/in/ezra-latina/"
+          }
+        ],
+        "socialLinks": [
+          {
+            "site": "email",
+            "url": "ezra.latina@thedailybeast.com",
+            "deprecated": true,
+            "deprecation_msg": "Please use social_links."
+          },
+          {
+            "site": "twitter",
+            "url": "@twitter",
+            "deprecated": true,
+            "deprecation_msg": "Please use social_links."
+          },
+          {
+            "site": "pinterest",
+            "url": "my-new-pinterest-handle",
+            "deprecated": true,
+            "deprecation_msg": "Please use social_links."
+          },
+          {
+            "site": "linkedin",
+            "url": "https://www.linkedin.com/in/ezra-latina/",
+            "deprecated": true,
+            "deprecation_msg": "Please use social_links."
+          }
+        ],
+        "additional_properties": {
+          "original": {
+            "_id": "C7WBIYLNV5OH3FIWH24UM47PMI",
+            "type": "author",
+            "version": "0.10.10",
+            "slug": "ezra-latina",
+            "byline": "Ezra Latina",
+            "firstName": "Ezra",
+            "lastName": "Latina",
+            "image": "https://author-service-images-sandbox-us-east-1.publishing.aws.arc.pub/thedailybeast/a4a09de1-101f-4075-8957-fc7d8e8332ac.png",
+            "expertise": "areas of expertise",
+            "location": "New York",
+            "role": "Product Manager",
+            "email": "ezra.latina@thedailybeast.com",
+            "twitter": "@twitter",
+            "bio": "this is my short bio updated just to test",
+            "longBio": "this is my full bio (now updated for testing)",
+            "last_updated_date": "2025-07-31T21:00:54.653Z",
+            "author_type": "freelance",
+            "linkedin": "https://www.linkedin.com/in/ezra-latina/",
+            "books": [],
+            "podcasts": [],
+            "education": [
+              {
+                "name": "education"
+              }
+            ],
+            "awards": [
+              {
+                "name": "this is an award"
+              }
+            ],
+            "affiliations": "professional affiliations",
+            "languages": "languages",
+            "beat": "beat",
+            "personal_website": "thedailybeast.com",
+            "pinterest": "my-new-pinterest-handle"
+          }
+        }
+      }
+    ]
+  },
+  "description": {
+    "basic": ""
+  },
+  "display_date": "2025-04-30T21:55:01.382Z",
+  "distributor": {
+    "category": "other",
+    "mode": "custom",
+    "name": "thedailybeast"
+  },
+  "first_publish_date": "2024-10-03T16:32:22.611Z",
+  "geo": {},
+  "headlines": {
+    "basic": "This Training Article Contains Every Embed Type",
+    "meta_title": "This Training Article Contains Every Embed Type",
+    "mobile": "This Training Article Contains Every Embed Type",
+    "native": "",
+    "print": "",
+    "table": "",
+    "tablet": "",
+    "web": "This Training Article Contains Every Embed Type"
+  },
+  "label": {
+    "rubric": {
+      "display": true,
+      "text": "TRAIN ME!"
+    },
+    "special_content_flag": {
+      "display": true,
+      "text": "Exclusive",
+      "url": ""
+    }
+  },
+  "language": "",
+  "last_updated_date": "2025-07-15T21:22:11.183Z",
+  "owner": {
+    "id": "sandbox.thedailybeast",
+    "sponsored": false
+  },
+  "planning": {
+    "scheduling": {},
+    "story_length": {
+      "character_count_actual": 5621,
+      "inch_count_actual": 9,
+      "line_count_actual": 58,
+      "word_count_actual": 777
+    }
+  },
+  "promo_items": {
+    "1_1": {
+      "_id": "7RYZ7DD5JJHTPISLQU6GRNJ6C4",
+      "additional_properties": {
+        "countryId": 226,
+        "fullSizeResizeUrl": "/resizer/v2/7RYZ7DD5JJHTPISLQU6GRNJ6C4.JPG?auth=76c50b3dc9093557d8c442fa749f66826fea15469137f3f447ac34022677f049",
+        "galleries": [],
+        "ingestionMethod": "manual",
+        "iptc_job_identifier": "POOL",
+        "iptc_source": "Pool",
+        "mime_type": "image/jpeg",
+        "originalName": "2024-10-01T101509Z_1236182989_RC2MBAAJFY3K_RTRMADP_3_BRITAIN-ROYALS-WILLIAM.JPG",
+        "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.thedailybeast/7RYZ7DD5JJHTPISLQU6GRNJ6C4.JPG",
+        "proxyUrl": "/resizer/v2/7RYZ7DD5JJHTPISLQU6GRNJ6C4.JPG?auth=76c50b3dc9093557d8c442fa749f66826fea15469137f3f447ac34022677f049",
+        "published": true,
+        "resizeUrl": "/resizer/v2/7RYZ7DD5JJHTPISLQU6GRNJ6C4.JPG?auth=76c50b3dc9093557d8c442fa749f66826fea15469137f3f447ac34022677f049",
+        "restricted": false,
+        "takenOn": "2024-10-01T10:15:09Z",
+        "thumbnailResizeUrl": "/resizer/v2/7RYZ7DD5JJHTPISLQU6GRNJ6C4.JPG?auth=76c50b3dc9093557d8c442fa749f66826fea15469137f3f447ac34022677f049&width=300",
+        "version": 1,
+        "template_id": 1948
+      },
+      "address": {
+        "locality": "LONDON",
+        "country_name": "GBR"
+      },
+      "alt_text": "Britain's Prince William speaks to Gunnlaugur \"G\" Erlendsson, the CEO of ENSO, a UK-based tyre startup, developed specifically for electric vehicles, that was the 2023 Earthshot Prize Finalist, in London, Britain.",
+      "auth": {
+        "1": "76c50b3dc9093557d8c442fa749f66826fea15469137f3f447ac34022677f049"
+      },
+      "caption": "Britain's Prince William speaks to Gunnlaugur \"G\" Erlendsson, the CEO of ENSO, a UK-based tyre startup, developed specifically for electric vehicles, that was the 2023 Earthshot Prize Finalist, in London, Britain.",
+      "copyright": "PA",
+      "created_date": "2024-10-01T14:42:32Z",
+      "credits": {
+        "affiliation": [
+          {
+            "name": "Aaron Chown/Reuters",
+            "type": "author"
+          }
+        ],
+        "by": [
+          {
+            "byline": "Aaron Chown",
+            "name": "Aaron Chown",
+            "type": "author"
+          }
+        ]
+      },
+      "height": 4000,
+      "image_type": "photograph",
+      "last_updated_date": "2024-10-01T15:00:05Z",
+      "licensable": false,
+      "owner": {
+        "id": "sandbox.thedailybeast",
+        "sponsored": false
+      },
+      "slug": "BRITAIN-ROYALS/WILLIAM",
+      "source": {
+        "additional_properties": {
+          "editor": "photo center"
+        },
+        "edit_url": "https://sandbox.thedailybeast.arcpublishing.com/photo/7RYZ7DD5JJHTPISLQU6GRNJ6C4",
+        "system": "photo center"
+      },
+      "subtitle": "Britain's Prince William visits RAF Northolt",
+      "taxonomy": {
+        "associated_tasks": []
+      },
+      "type": "image",
+      "url": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.thedailybeast/7RYZ7DD5JJHTPISLQU6GRNJ6C4.JPG",
+      "version": "0.10.9",
+      "width": 6000,
+      "syndication": {},
+      "creditIPTC": "Aaron Chown/Reuters",
+      "country_name": "United Kingdom"
+    },
+    "basic": {
+      "_id": "IGXLHP42WJMFNM2ST4C5QPRYV4",
+      "additional_properties": {
+        "fullSizeResizeUrl": "/resizer/v2/IGXLHP42WJMFNM2ST4C5QPRYV4.jpg?auth=786d2f732ef489475f8c6d3733f805660b4610a16d5ac6a55ceb2ae884bfae09",
+        "galleries": [],
+        "mime_type": "image/jpeg",
+        "originalName": "GettyImages-2173503737_kf3oon.jpg",
+        "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.thedailybeast/IGXLHP42WJMFNM2ST4C5QPRYV4.jpg",
+        "proxyUrl": "/resizer/v2/IGXLHP42WJMFNM2ST4C5QPRYV4.jpg?auth=786d2f732ef489475f8c6d3733f805660b4610a16d5ac6a55ceb2ae884bfae09",
+        "published": true,
+        "resizeUrl": "/resizer/v2/IGXLHP42WJMFNM2ST4C5QPRYV4.jpg?auth=786d2f732ef489475f8c6d3733f805660b4610a16d5ac6a55ceb2ae884bfae09",
+        "restricted": false,
+        "thumbnailResizeUrl": "/resizer/v2/IGXLHP42WJMFNM2ST4C5QPRYV4.jpg?auth=786d2f732ef489475f8c6d3733f805660b4610a16d5ac6a55ceb2ae884bfae09&width=300",
+        "version": 0
+      },
+      "address": {},
+      "alt_text": "Ezra Sosa and Anna \"Delvey\" Sorokin perform a quickstep routine on Dancing with the Stars.",
+      "auth": {
+        "1": "786d2f732ef489475f8c6d3733f805660b4610a16d5ac6a55ceb2ae884bfae09"
+      },
+      "caption": "<p>The infamous scam artist was eliminated on Tuesday following a quickstep routine, featuring her bedazzled court-ordered ankle monitor, with partner Ezra Sosa.</p>",
+      "created_date": "2024-10-24T10:02:24Z",
+      "credits": {
+        "affiliation": [
+          {
+            "byline": "Eric McCandless/Getty Images",
+            "name": "Eric McCandless/Getty Images",
+            "type": "author"
+          }
+        ]
+      },
+      "height": 1596,
+      "last_updated_date": "2024-10-24T10:02:24Z",
+      "licensable": false,
+      "owner": {
+        "id": "sandbox.thedailybeast"
+      },
+      "slug": "GettyImages-2173503737_kf3oon",
+      "source": {
+        "additional_properties": {
+          "editor": "photo center"
+        },
+        "edit_url": "https://sandbox.thedailybeast.arcpublishing.com/photo/IGXLHP42WJMFNM2ST4C5QPRYV4",
+        "system": "photo center"
+      },
+      "subtitle": "GettyImages-2173503737_kf3oon",
+      "type": "image",
+      "url": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.thedailybeast/IGXLHP42WJMFNM2ST4C5QPRYV4.jpg",
+      "version": "0.10.9",
+      "width": 2838
+    }
+  },
+  "publish_date": "2025-07-15T21:22:11.014Z",
+  "related_content": {
+    "basic": [
+      {
+        "_id": "EQ5DNDXUMBHAZHW2GALLDKXETM",
+        "referent": {
+          "id": "EQ5DNDXUMBHAZHW2GALLDKXETM",
+          "provider": "",
+          "type": "story"
+        },
+        "type": "reference"
+      },
+      {
+        "_id": "5GRIMV2EY5E7ZMY6WUDOJQ7ULE",
+        "referent": {
+          "id": "5GRIMV2EY5E7ZMY6WUDOJQ7ULE",
+          "provider": "",
+          "type": "story"
+        },
+        "type": "reference"
+      }
+    ],
+    "clonedChildren": [],
+    "clonedFromParent": []
+  },
+  "revision": {
+    "branch": "default",
+    "editions": [
+      "default"
+    ],
+    "parent_id": "WA3GLZWHZ5HV3EL6DOEJTTVEBA",
+    "published": true,
+    "revision_id": "6DJHHRHILVGNLDAC2S5SVFWFVA"
+  },
+  "source": {
+    "name": "thedailybeast",
+    "system": "composer"
+  },
+  "subheadlines": {
+    "basic": "Click the + at each new paragraph to add inline content between paragraphs."
+  },
+  "subtype": "standard-tdb",
+  "taxonomy": {
+    "primary_section": {
+      "_id": "/us-news",
+      "_website": "thedailybeast",
+      "type": "section",
+      "version": "0.6.0",
+      "name": "U.S. News",
+      "path": "/us-news",
+      "parent_id": "/",
+      "parent": {
+        "default": "/"
+      },
+      "additional_properties": {
+        "original": {
+          "_id": "/us-news",
+          "name": "U.S. News",
+          "parent": {
+            "default": "/",
+            "composer": "/",
+            "bottomNavFooter": "/",
+            "footerNavMobile": "/",
+            "burgerNav": "/",
+            "footerNav": "/",
+            "bottomNav": "/"
+          },
+          "ancestors": {
+            "default": [
+              "/"
+            ],
+            "composer": [
+              "/"
+            ],
+            "bottomNavFooter": [
+              "/"
+            ],
+            "footerNavMobile": [
+              "/"
+            ],
+            "burgerNav": [
+              "/"
+            ],
+            "footerNav": [
+              "/"
+            ],
+            "bottomNav": [
+              "/"
+            ]
+          },
+          "order": {
+            "default": 1012,
+            "composer": 1008,
+            "bottomNavFooter": 1007,
+            "footerNavMobile": 1009,
+            "burgerNav": 1004,
+            "footerNav": 1008,
+            "bottomNav": 1009
+          },
+          "inactive": false,
+          "website": "thedailybeast",
+          "node_type": "section",
+          "_website": "thedailybeast"
+        }
+      }
+    },
+    "primary_site": {
+      "_id": "/us-news",
+      "type": "site",
+      "version": "0.5.8",
+      "name": "U.S. News",
+      "path": "/us-news",
+      "parent_id": "/",
+      "additional_properties": {
+        "original": {
+          "_id": "/us-news",
+          "name": "U.S. News",
+          "parent": {
+            "default": "/",
+            "composer": "/",
+            "bottomNavFooter": "/",
+            "footerNavMobile": "/",
+            "burgerNav": "/",
+            "footerNav": "/",
+            "bottomNav": "/"
+          },
+          "ancestors": {
+            "default": [
+              "/"
+            ],
+            "composer": [
+              "/"
+            ],
+            "bottomNavFooter": [
+              "/"
+            ],
+            "footerNavMobile": [
+              "/"
+            ],
+            "burgerNav": [
+              "/"
+            ],
+            "footerNav": [
+              "/"
+            ],
+            "bottomNav": [
+              "/"
+            ]
+          },
+          "order": {
+            "default": 1012,
+            "composer": 1008,
+            "bottomNavFooter": 1007,
+            "footerNavMobile": 1009,
+            "burgerNav": 1004,
+            "footerNav": 1008,
+            "bottomNav": 1009
+          },
+          "inactive": false,
+          "website": "thedailybeast",
+          "node_type": "section"
+        }
+      }
+    },
+    "sections": [
+      {
+        "_id": "/us-news",
+        "_website": "thedailybeast",
+        "type": "section",
+        "version": "0.6.0",
+        "name": "U.S. News",
+        "path": "/us-news",
+        "parent_id": "/",
+        "parent": {
+          "default": "/"
+        },
+        "additional_properties": {
+          "original": {
+            "_id": "/us-news",
+            "name": "U.S. News",
+            "parent": {
+              "default": "/",
+              "composer": "/",
+              "bottomNavFooter": "/",
+              "footerNavMobile": "/",
+              "burgerNav": "/",
+              "footerNav": "/",
+              "bottomNav": "/"
+            },
+            "ancestors": {
+              "default": [
+                "/"
+              ],
+              "composer": [
+                "/"
+              ],
+              "bottomNavFooter": [
+                "/"
+              ],
+              "footerNavMobile": [
+                "/"
+              ],
+              "burgerNav": [
+                "/"
+              ],
+              "footerNav": [
+                "/"
+              ],
+              "bottomNav": [
+                "/"
+              ]
+            },
+            "order": {
+              "default": 1012,
+              "composer": 1008,
+              "bottomNavFooter": 1007,
+              "footerNavMobile": 1009,
+              "burgerNav": 1004,
+              "footerNav": 1008,
+              "bottomNav": 1009
+            },
+            "inactive": false,
+            "website": "thedailybeast",
+            "node_type": "section",
+            "_website": "thedailybeast"
+          }
+        },
+        "_website_section_id": "thedailybeast./us-news"
+      }
+    ],
+    "sites": [
+      {
+        "_id": "/us-news",
+        "type": "site",
+        "version": "0.5.8",
+        "name": "U.S. News",
+        "path": "/us-news",
+        "parent_id": "/",
+        "additional_properties": {
+          "original": {
+            "_id": "/us-news",
+            "name": "U.S. News",
+            "parent": {
+              "default": "/",
+              "composer": "/",
+              "bottomNavFooter": "/",
+              "footerNavMobile": "/",
+              "burgerNav": "/",
+              "footerNav": "/",
+              "bottomNav": "/"
+            },
+            "ancestors": {
+              "default": [
+                "/"
+              ],
+              "composer": [
+                "/"
+              ],
+              "bottomNavFooter": [
+                "/"
+              ],
+              "footerNavMobile": [
+                "/"
+              ],
+              "burgerNav": [
+                "/"
+              ],
+              "footerNav": [
+                "/"
+              ],
+              "bottomNav": [
+                "/"
+              ]
+            },
+            "order": {
+              "default": 1012,
+              "composer": 1008,
+              "bottomNavFooter": 1007,
+              "footerNavMobile": 1009,
+              "burgerNav": 1004,
+              "footerNav": 1008,
+              "bottomNav": 1009
+            },
+            "inactive": false,
+            "website": "thedailybeast",
+            "node_type": "section"
+          }
+        }
+      }
+    ]
+  },
+  "type": "story",
+  "version": "0.10.11",
+  "websites": {
+    "thedailybeast": {
+      "website_section": {
+        "_id": "/us-news",
+        "_website": "thedailybeast",
+        "type": "section",
+        "version": "0.6.0",
+        "name": "U.S. News",
+        "path": "/us-news",
+        "parent_id": "/",
+        "parent": {
+          "default": "/"
+        },
+        "additional_properties": {
+          "original": {
+            "_id": "/us-news",
+            "name": "U.S. News",
+            "parent": {
+              "default": "/",
+              "composer": "/",
+              "bottomNavFooter": "/",
+              "footerNavMobile": "/",
+              "burgerNav": "/",
+              "footerNav": "/",
+              "bottomNav": "/"
+            },
+            "ancestors": {
+              "default": [
+                "/"
+              ],
+              "composer": [
+                "/"
+              ],
+              "bottomNavFooter": [
+                "/"
+              ],
+              "footerNavMobile": [
+                "/"
+              ],
+              "burgerNav": [
+                "/"
+              ],
+              "footerNav": [
+                "/"
+              ],
+              "bottomNav": [
+                "/"
+              ]
+            },
+            "order": {
+              "default": 1012,
+              "composer": 1008,
+              "bottomNavFooter": 1007,
+              "footerNavMobile": 1009,
+              "burgerNav": 1004,
+              "footerNav": 1008,
+              "bottomNav": 1009
+            },
+            "inactive": false,
+            "website": "thedailybeast",
+            "node_type": "section",
+            "_website": "thedailybeast"
+          }
+        },
+        "_website_section_id": "thedailybeast./us-news"
+      },
+      "website_url": "/this-training-article-contains-every-embed-type/"
+    }
+  },
+  "canonical_url": "/this-training-article-contains-every-embed-type/",
+  "publishing": {
+    "scheduled_operations": {
+      "publish_edition": [],
+      "unpublish_edition": []
+    }
+  },
+  "website": "thedailybeast",
+  "website_url": "/this-training-article-contains-every-embed-type/"
+}

@@ -1,0 +1,67 @@
+---
+import type { ImageBlock } from '@/lib/types';
+
+interface Props {
+  block: ImageBlock;
+  class?: string;
+  sizes?: string;
+}
+
+const { block, class: className, sizes = '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw' } = Astro.props;
+
+const imageUrl = block.url || block.additional_properties?.originalUrl;
+let resizeUrl = block.additional_properties?.resizeUrl;
+
+// Convert relative resize URLs to absolute URLs using Arc CDN
+if (resizeUrl && resizeUrl.startsWith('/resizer/')) {
+  resizeUrl = `https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.thedailybeast${resizeUrl}`;
+}
+
+function getResponsiveImageUrl(baseUrl: string, width: number): string {
+  if (!baseUrl) return '';
+  
+  // Add width parameter to resize URL
+  if (baseUrl.includes('resizer/v2/')) {
+    const separator = baseUrl.includes('?') ? '&' : '?';
+    return `${baseUrl}${separator}width=${width}`;
+  }
+  
+  return baseUrl;
+}
+
+// Only use srcset if we have a working resize URL
+const srcSet = resizeUrl && resizeUrl.startsWith('http') ? [
+  `${getResponsiveImageUrl(resizeUrl, 400)} 400w`,
+  `${getResponsiveImageUrl(resizeUrl, 800)} 800w`,
+  `${getResponsiveImageUrl(resizeUrl, 1200)} 1200w`,
+  `${getResponsiveImageUrl(resizeUrl, 1600)} 1600w`,
+].join(', ') : undefined;
+---
+
+<figure class={`my-6 ${className || ''}`}>
+  <div class="relative">
+    <img
+      src={imageUrl}
+      srcset={srcSet}
+      sizes={sizes}
+      alt={block.alt_text || ''}
+      width={block.width}
+      height={block.height}
+      class="w-full h-auto rounded-lg"
+      loading="lazy"
+    />
+  </div>
+  {(block.caption || block.credits?.by?.[0]?.byline) && (
+    <figcaption class="mt-3 text-sm text-muted-foreground">
+      {block.caption && (
+        <div class="mb-1" set:html={block.caption} />
+      )}
+      {block.credits?.by?.[0]?.byline && (
+        <div class="text-xs">
+          Photo: {block.credits.by[0].byline}
+          {block.credits?.affiliation?.[0]?.name && ` / ${block.credits.affiliation[0].name}`}
+        </div>
+      )}
+    </figcaption>
+  )}
+</figure>

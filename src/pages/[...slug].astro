@@ -1,0 +1,170 @@
+---
+import Layout from '@/components/layout/Layout.astro';
+import ContentRenderer from '@/components/blocks/ContentRenderer.astro';
+import { api } from '@/lib/api';
+import type { Article } from '@/lib/types';
+
+const { slug } = Astro.params;
+
+if (!slug) {
+  return Astro.redirect('/404');
+}
+
+let article: Article | null = null;
+
+try {
+  // Build the canonical URL from the slug (with trailing slash)
+  const canonicalUrl = `/${slug}/`;
+  
+  // Try to fetch article by canonical URL
+  const response = await api.getArticle(canonicalUrl, { by: 'slug' });
+  
+  if (response.data) {
+    article = response.data;
+  }
+} catch (err) {
+  console.error('Error fetching article:', err);
+}
+
+if (!article) {
+  return Astro.redirect('/404');
+}
+
+function formatDate(dateString: string): string {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', { 
+    month: 'long', 
+    day: 'numeric', 
+    year: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit'
+  });
+}
+
+function getImageUrl(article: Article): string {
+  if (article.promo_items?.basic?.url) {
+    return article.promo_items.basic.url;
+  }
+  if (article.promo_items?.basic?.additional_properties?.originalUrl) {
+    return article.promo_items.basic.additional_properties.originalUrl;
+  }
+  return '';
+}
+
+const imageUrl = getImageUrl(article);
+const pageTitle = article.headlines.meta_title || article.headlines.basic || 'The Looker';
+const pageDescription = article.description?.basic || article.subheadlines?.basic || '';
+---
+
+<Layout 
+  title={pageTitle} 
+  description={pageDescription}
+  image={imageUrl}
+>
+  <article class="container mx-auto px-4 py-8">
+    <header class="mb-8 max-w-4xl mx-auto">
+      {article.label?.rubric?.display && (
+        <div class="text-sm text-primary font-medium uppercase tracking-wide mb-4">
+          {article.label.rubric.text}
+        </div>
+      )}
+      
+      <h1 class="text-4xl lg:text-5xl font-bold font-druk leading-tight mb-4">
+        {article.headlines.basic}
+      </h1>
+      
+      {article.subheadlines?.basic && (
+        <p class="text-xl text-muted-foreground leading-relaxed mb-6">
+          {article.subheadlines.basic}
+        </p>
+      )}
+      
+      <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground mb-8">
+        {article.credits?.by?.map((author) => (
+          <div>
+            By <a 
+              href={`/authors/${author.slug}`} 
+              class="font-medium hover:text-foreground transition-colors"
+            >
+              {author.name}
+            </a>
+          </div>
+        ))}
+        {article.credits?.by?.length > 0 && <span>•</span>}
+        <time>{formatDate(article.display_date || article.publish_date)}</time>
+        {article.taxonomy?.primary_section && (
+          <>
+            <span>•</span>
+            <a 
+              href={article.taxonomy.primary_section.path}
+              class="hover:text-foreground transition-colors"
+            >
+              {article.taxonomy.primary_section.name}
+            </a>
+          </>
+        )}
+      </div>
+      
+      {imageUrl && (
+        <div class="aspect-[16/9] mb-8 overflow-hidden rounded-lg bg-muted">
+          <img 
+            src={imageUrl}
+            alt={article.promo_items?.basic?.alt_text || article.headlines.basic}
+            class="w-full h-full object-cover"
+          />
+          {article.promo_items?.basic?.caption && (
+            <figcaption class="mt-3 text-sm text-muted-foreground">
+              {article.promo_items.basic.caption}
+              {article.promo_items.basic.credits?.by?.[0]?.name && (
+                <span class="block text-xs mt-1">
+                  Photo: {article.promo_items.basic.credits.by[0].name}
+                </span>
+              )}
+            </figcaption>
+          )}
+        </div>
+      )}
+    </header>
+    
+    <div class="max-w-3xl mx-auto">
+      {article.content_elements && article.content_elements.length > 0 ? (
+        <ContentRenderer contentElements={article.content_elements} />
+      ) : (
+        <div class="prose prose-lg max-w-none">
+          <p class="text-muted-foreground">Article content is not available.</p>
+        </div>
+      )}
+    </div>
+    
+    {article.taxonomy?.tags && article.taxonomy.tags.length > 0 && (
+      <footer class="max-w-3xl mx-auto mt-12 pt-8 border-t border-border">
+        <div class="text-sm text-muted-foreground mb-3">Tags:</div>
+        <div class="flex flex-wrap gap-2">
+          {article.taxonomy.tags.map((tag) => (
+            <a 
+              href={`/tags/${tag.slug}`}
+              class="inline-block px-3 py-1 bg-muted text-muted-foreground rounded-full text-sm hover:bg-muted/80 transition-colors"
+            >
+              {tag.text}
+            </a>
+          ))}
+        </div>
+      </footer>
+    )}
+    
+    {article.related_content?.basic && article.related_content.basic.length > 0 && (
+      <section class="max-w-3xl mx-auto mt-12 pt-8 border-t border-border">
+        <h2 class="text-xl font-bold font-druk mb-4">Related Stories</h2>
+        <div class="space-y-4">
+          {article.related_content.basic.map((related) => (
+            <div class="p-4 bg-card border border-border rounded-lg">
+              <a href={`/stories/${related.referent.id}`} class="text-primary hover:text-primary/80">
+                View related story
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+  </article>
+</Layout>

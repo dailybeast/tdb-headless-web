@@ -1,0 +1,50 @@
+---
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
+---
+
+<footer class={`bg-background border-t border-border mt-16 ${className || ''}`}>
+  <div class="container mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div class="col-span-1 md:col-span-2">
+        <div class="flex items-center mb-4">
+          <img 
+            src="/The-Looker-Logo.svg" 
+            alt="The Looker" 
+            class="h-8 w-auto"
+          />
+        </div>
+        <p class="text-muted-foreground text-sm mb-4">
+          The Looker brings you the latest in politics, culture, and world events 
+          with the sharp, fearless reporting you've come to expect.
+        </p>
+        <div class="text-xs text-muted-foreground">
+          © 2025 The Daily Beast Company LLC. All rights reserved.
+        </div>
+      </div>
+      
+      <div>
+        <h3 class="font-semibold mb-4">Sections</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/politics" class="text-muted-foreground hover:text-foreground">Politics</a></li>
+          <li><a href="/world" class="text-muted-foreground hover:text-foreground">World</a></li>
+          <li><a href="/entertainment" class="text-muted-foreground hover:text-foreground">Entertainment</a></li>
+          <li><a href="/culture" class="text-muted-foreground hover:text-foreground">Culture</a></li>
+        </ul>
+      </div>
+      
+      <div>
+        <h3 class="font-semibold mb-4">Company</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/about" class="text-muted-foreground hover:text-foreground">About</a></li>
+          <li><a href="/contact" class="text-muted-foreground hover:text-foreground">Contact</a></li>
+          <li><a href="/privacy" class="text-muted-foreground hover:text-foreground">Privacy Policy</a></li>
+          <li><a href="/terms" class="text-muted-foreground hover:text-foreground">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

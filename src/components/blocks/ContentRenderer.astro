@@ -1,0 +1,52 @@
+---
+import type { ContentElement } from '@/lib/types';
+import TextBlock from './TextBlock.astro';
+import HeaderBlock from './HeaderBlock.astro';
+import ImageBlock from './ImageBlock.astro';
+import QuoteBlock from './QuoteBlock.astro';
+import ListBlock from './ListBlock.astro';
+import OEmbedBlock from './OEmbedBlock.astro';
+import CustomEmbedBlock from './CustomEmbedBlock.astro';
+import RawHtmlBlock from './RawHtmlBlock.astro';
+import ReferenceBlock from './ReferenceBlock.astro';
+
+interface Props {
+  contentElements: ContentElement[];
+  class?: string;
+}
+
+const { contentElements, class: className } = Astro.props;
+---
+
+<div class={className}>
+  {contentElements.map((element) => {
+    switch (element.type) {
+      case 'text':
+        return <TextBlock block={element} />;
+      case 'header':
+        return <HeaderBlock block={element} />;
+      case 'image':
+        return <ImageBlock block={element} />;
+      case 'quote':
+        return <QuoteBlock block={element} />;
+      case 'list':
+        return <ListBlock block={element} />;
+      case 'oembed_response':
+        return <OEmbedBlock block={element} />;
+      case 'custom_embed':
+        return <CustomEmbedBlock block={element} />;
+      case 'raw_html':
+        return <RawHtmlBlock block={element} />;
+      case 'reference':
+        return <ReferenceBlock block={element} />;
+      default:
+        return (
+          <div class="my-4 p-4 bg-muted rounded-lg">
+            <div class="text-sm text-muted-foreground">
+              Unsupported content type: {(element as any).type}
+            </div>
+          </div>
+        );
+    }
+  })}
+</div>

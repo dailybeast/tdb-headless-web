@@ -1,0 +1,841 @@
+{
+	"_id": "YQJS7VA6ZZC6HMNEZDY6NHH2V4",
+	"additional_properties": {
+		"has_published_copy": true,
+		"is_published": true,
+		"publish_date": "2025-07-15T16:49:01.695Z"
+	},
+	"address": {},
+	"canonical_website": "thedailybeast",
+	"content_elements": [
+		{
+			"_id": "ABCOEBFI5FANHEIMXU4NUBUIAQ",
+			"additional_properties": {},
+			"content": "Russian television pundits are mocking President Donald Trump’s threats to weigh in decisively on Ukraine, claiming that his new comments are a way to try and knock the Epstein scandal out of the news headlines.",
+			"type": "text"
+		},
+		{
+			"_id": "K7PJNCZWIBCHHORJLS5ERDLKZY",
+			"additional_properties": {},
+			"content": "Trump has backed a plan to send U.S. military equipment to NATO allies for possible use by Ukraine but the reaction from Russian TV has been largely sedate.",
+			"type": "text"
+		},
+		{
+			"_id": "EFM6YGBXNFE55I4TLFFBYMGONI",
+			"additional_properties": {},
+			"content": "Aside from notorious state TV host Vladimir Solovyov, whose<a href=\"https://x.com/JuliaDavisNews/status/1942990932720390512\" rel=\"\"> nuclear threats and temper tantrums</a> are the stuff of legend—and who proposed to use the next 50 days “to set Europe on fire, “create hell on the territory of Ukraine” and “nuke America”—most pundits and experts saw the announcement as subterfuge.",
+			"type": "text"
+		},
+		{
+			"_id": "7Y2BTHBVZ5CL7MWSM24OQV3AEA",
+			"additional_properties": {},
+			"content": "Appearing on the state TV show, <i>The Evening With Vladimir Solovyov</i>, Professor Dmitry Evstafiev<a href=\"https://x.com/JuliaDavisNews/status/1944455673120473524\" rel=\"\"> described Trump as a severely wounded boar hog</a>, who is facing criticism from his own base for withholding the Epstein files—and desperately needs a distraction. Other pundits and experts expressed the same opinion.",
+			"type": "text"
+		},
+		{
+			"_id": "YPLJ3XEKXFATNJVLUWSTKMRPKI",
+			"additional_properties": {
+				"countryId": 152,
+				"fullSizeResizeUrl": "/resizer/v2/YPLJ3XEKXFATNJVLUWSTKMRPKI.jpg?auth=a65b75cc7bb486c527068b4a9c4f17130a612527172577ed36d5afcab67fe38d",
+				"galleries": [],
+				"ingestionMethod": "manual",
+				"iptc_job_identifier": "776341492",
+				"iptc_source": "Getty Images Europe",
+				"iptc_title": "Staff",
+				"mime_type": "image/jpeg",
+				"originalName": "GettyImages-2221346856.jpg",
+				"originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/thedailybeast/YPLJ3XEKXFATNJVLUWSTKMRPKI.jpg",
+				"proxyUrl": "/resizer/v2/YPLJ3XEKXFATNJVLUWSTKMRPKI.jpg?auth=a65b75cc7bb486c527068b4a9c4f17130a612527172577ed36d5afcab67fe38d",
+				"published": true,
+				"resizeUrl": "/resizer/v2/YPLJ3XEKXFATNJVLUWSTKMRPKI.jpg?auth=a65b75cc7bb486c527068b4a9c4f17130a612527172577ed36d5afcab67fe38d",
+				"restricted": false,
+				"takenOn": "2025-06-24T00:00:00Z",
+				"thumbnailResizeUrl": "/resizer/v2/YPLJ3XEKXFATNJVLUWSTKMRPKI.jpg?auth=a65b75cc7bb486c527068b4a9c4f17130a612527172577ed36d5afcab67fe38d&width=300",
+				"usage_instructions": "Not Released (NR) Not Released (NR)",
+				"version": 1,
+				"template_id": 1305,
+				"link": ""
+			},
+			"address": {
+				"locality": "The Hague",
+				"country_name": "NLD"
+			},
+			"alt_text": "Donald Trump and Marco Rubio.",
+			"auth": {
+				"1": "a65b75cc7bb486c527068b4a9c4f17130a612527172577ed36d5afcab67fe38d"
+			},
+			"caption": "Russian TV has been pointing to a news conference between Secretary of State Marco Rubio (right) and Sergey Lavrov.",
+			"copyright": "2025 Getty Images",
+			"created_date": "2025-06-28T17:35:49Z",
+			"credits": {
+				"affiliation": [
+					{
+						"name": "Getty Images",
+						"type": "author"
+					}
+				],
+				"by": [
+					{
+						"byline": "Andrew Harnik",
+						"name": "Andrew Harnik",
+						"type": "author"
+					}
+				]
+			},
+			"height": 5760,
+			"image_type": "photograph",
+			"last_updated_date": "2025-06-28T18:20:44Z",
+			"licensable": false,
+			"owner": {
+				"id": "thedailybeast",
+				"sponsored": false
+			},
+			"slug": "2221346856",
+			"source": {
+				"additional_properties": {
+					"editor": "photo center"
+				},
+				"edit_url": "https://thedailybeast.arcpublishing.com/photo/YPLJ3XEKXFATNJVLUWSTKMRPKI",
+				"system": "photo center"
+			},
+			"subtitle": "NATO Leaders Attend 2025 Summit In The Hague",
+			"taxonomy": {
+				"associated_tasks": []
+			},
+			"type": "image",
+			"url": "https://cloudfront-us-east-1.images.arcpublishing.com/thedailybeast/YPLJ3XEKXFATNJVLUWSTKMRPKI.jpg",
+			"version": "0.10.9",
+			"width": 8640,
+			"syndication": {},
+			"creditIPTC": "Getty Images",
+			"country_name": "Netherlands"
+		},
+		{
+			"_id": "CEVTCRYKQBCI7B7YFN5GZT6DW4",
+			"additional_properties": {},
+			"content": "The looming threat of Trump boosting the efforts of Senator Lindsey Graham and imposing hard-hitting sanctions against Russia is not being taken seriously. In particular, state TV experts repeatedly highlighted a video clip from the meeting between Secretary of State Marco Rubio and Russian Foreign Minister Sergey Lavrov in Malaysia last Thursday. When an unidentified journalist asked Rubio whether the Trump administration was planning to impose new sanctions against Russia,<a href=\"https://x.com/JuliaDavisNews/status/1943819924092121465\" rel=\"\"> state media reported</a> that Rubio did not respond to the journalist, but instead glanced at Lavrov and winked at him. Russian experts interpreted it as a confirmation that Russia will not face any meaningful U.S. sanctions in the foreseeable future.",
+			"type": "text"
+		},
+		{
+			"_id": "KS2YGKDJTVE7PHAB2HIL2MHCRM",
+			"additional_properties": {},
+			"content": "Monday’s announcement from the U.S. president didn’t stray far from Moscow’s expectations. ",
+			"type": "text"
+		},
+		{
+			"_id": "JRDBXYML7RCJXFV5IATNIXS47Q",
+			"additional_properties": {},
+			"content": "During Monday’s broadcast of a state TV show, <i>60 Minutes</i>, <a href=\"https://www.youtube.com/watch?v=N14wxWd5vws\" rel=\"\">State Duma deputy Boris Chernyshov directly connected</a> the refusal of the Trump administration to release the long-awaited Epstein files with Trump’s announcement of a major development pertaining to Russia’s ongoing invasion of Ukraine. He said: “A sense of innuendo is growing in American society, there is a growing feeling that they have been deceived by the most honest, the best, the most beautiful, the biggest president in the history of the United States.”",
+			"type": "text"
+		},
+		{
+			"_id": "C2NRALRDVVB2ZI4QMYOVTV3HUE",
+			"additional_properties": {},
+			"content": "The footage of Trump partying with Epstein was playing on a jumbotron, as Chernyshov explained, “American voters are totally displeased, because [Trump] is deceiving them right now.” Chernyshov said that the U.S. president’s “big announcement” about Russia and Ukraine was designed “to create a smokescreen” and push aside the topic of the Epstein files.",
+			"type": "text"
+		},
+		{
+			"type": "oembed_response",
+			"subtype": "youtube",
+			"_id": "PBUEO5MZXNCYHBT5JEZFG4QPIA",
+			"raw_oembed": {
+				"title": "Boris Chernyshov explains the timing of Trump's latest announcement",
+				"author_name": "Russian Media Monitor",
+				"author_url": "https://www.youtube.com/@russianmediamonitor",
+				"type": "youtube",
+				"height": 315,
+				"width": 560,
+				"version": "1.0",
+				"provider_name": "YouTube",
+				"provider_url": "https://www.youtube.com/",
+				"thumbnail_height": 360,
+				"thumbnail_width": 480,
+				"thumbnail_url": "https://i.ytimg.com/vi/N14wxWd5vws/hqdefault.jpg",
+				"html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/N14wxWd5vws?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Boris Chernyshov explains the timing of Trump&#39;s latest announcement\"></iframe>",
+				"_id": "https://www.youtube.com/watch?v=N14wxWd5vws"
+			},
+			"referent": {
+				"id": "https://www.youtube.com/watch?v=N14wxWd5vws",
+				"provider": "https://www.youtube.com/oembed?maxwidth=560&maxheight=340&url=",
+				"referent_properties": {},
+				"service": "oembed",
+				"type": "youtube"
+			}
+		},
+		{
+			"_id": "EGMGEJZUVBCJJJY3CF6W3325AM",
+			"additional_properties": {},
+			"content": "Over the weekend, the revelation about the U.S. selling Patriot systems to European nations, so they can be ultimately delivered to Ukraine, was already made public. While this development wasn’t welcomed in Russia, experts and pundits argued that it wouldn’t make any difference, since these are defensive weapons and Moscow is more concerned with Ukraine’s ability to launch long-range strikes deep within Russia. They predicted that Europe wouldn’t be able to procure and deliver arms to Ukraine in an expedited and efficient way that would have a major impact during Russia’s ongoing summer offensive.",
+			"type": "text"
+		},
+		{
+			"_id": "4AESFQ3WI5FQHOBPNZSAH4XYRQ",
+			"additional_properties": {},
+			"content": "Hence, the only real news in Trump’s announcement was limited to giving Putin 50 more days to change his ways. Notably, it was previously reported by Axios that during a phone call with Trump on July 3, “Putin indicated that over the next 60 days he would make a renewed push to occupy territory up to the administrative lines of the Ukrainian regions in which Russia has a significant foothold.” Shortly after the call, Trump spoke with French President Emmanuel Macron and reportedly told him, “He [Putin] wants to take all of it.”",
+			"type": "text"
+		},
+		{
+			"_id": "GFWVSQXSO5C75HSNLUVFOSKWDY",
+			"additional_properties": {
+				"countryId": 179,
+				"fullSizeResizeUrl": "/resizer/v2/GFWVSQXSO5C75HSNLUVFOSKWDY.jpg?auth=90e460936c366403d54f00a834f3a21e197e5adeb731fe0dff15a1c7ef3033f4",
+				"galleries": [],
+				"ingestionMethod": "manual",
+				"iptc_job_identifier": "776344597",
+				"iptc_source": "Getty Images Europe",
+				"iptc_title": "Contributor",
+				"keywords": [],
+				"mime_type": "image/jpeg",
+				"originalName": "GettyImages-2222174314.jpg",
+				"originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/thedailybeast/GFWVSQXSO5C75HSNLUVFOSKWDY.jpg",
+				"proxyUrl": "/resizer/v2/GFWVSQXSO5C75HSNLUVFOSKWDY.jpg?auth=90e460936c366403d54f00a834f3a21e197e5adeb731fe0dff15a1c7ef3033f4",
+				"published": true,
+				"resizeUrl": "/resizer/v2/GFWVSQXSO5C75HSNLUVFOSKWDY.jpg?auth=90e460936c366403d54f00a834f3a21e197e5adeb731fe0dff15a1c7ef3033f4",
+				"restricted": false,
+				"takenOn": "2025-06-30T00:00:00Z",
+				"thumbnailResizeUrl": "/resizer/v2/GFWVSQXSO5C75HSNLUVFOSKWDY.jpg?auth=90e460936c366403d54f00a834f3a21e197e5adeb731fe0dff15a1c7ef3033f4&width=300",
+				"usage_instructions": "Not Released (NR) ",
+				"version": 3,
+				"template_id": 1305,
+				"link": ""
+			},
+			"address": {
+				"locality": "Moscow",
+				"country_name": "RUS"
+			},
+			"alt_text": "Russian President Vladimir Putin at a meeting on developing the 'new regions', annexed from Ukraine.",
+			"auth": {
+				"1": "90e460936c366403d54f00a834f3a21e197e5adeb731fe0dff15a1c7ef3033f4"
+			},
+			"caption": "Russian President Vladimir Putin at a meeting on developing the 'new regions' annexed from Ukraine.",
+			"copyright": "2025 Contributor#8523328",
+			"created_date": "2025-07-14T19:10:06Z",
+			"credits": {
+				"affiliation": [
+					{
+						"name": "Getty Images",
+						"type": "author"
+					}
+				],
+				"by": [
+					{
+						"byline": "Contributor",
+						"name": "Contributor",
+						"type": "author"
+					}
+				]
+			},
+			"geo": {},
+			"height": 5464,
+			"image_type": "photograph",
+			"last_updated_date": "2025-07-15T14:26:14Z",
+			"licensable": false,
+			"owner": {
+				"id": "thedailybeast",
+				"sponsored": false
+			},
+			"slug": "2222174314",
+			"source": {
+				"additional_properties": {
+					"editor": "photo center"
+				},
+				"edit_url": "https://thedailybeast.arcpublishing.com/photo/GFWVSQXSO5C75HSNLUVFOSKWDY",
+				"system": "photo center"
+			},
+			"subtitle": "Putin Holds Meeting On Developning 'New Regions' Of Russia Annexed From Ukraine",
+			"taxonomy": {
+				"associated_tasks": []
+			},
+			"type": "image",
+			"url": "https://cloudfront-us-east-1.images.arcpublishing.com/thedailybeast/GFWVSQXSO5C75HSNLUVFOSKWDY.jpg",
+			"version": "0.10.9",
+			"width": 8192,
+			"syndication": {},
+			"creditIPTC": "Getty Images",
+			"country_name": "Russian Federation"
+		},
+		{
+			"_id": "7RNF2OO3JBFP5CNLODXK7UIM24",
+			"additional_properties": {},
+			"content": "Therefore, Trump’s delay of any punitive actions that would undermine Russia’s struggling economy by 50 days was precisely in line with Putin’s current plans. Host of <i>60 Minutes</i> Olga Skabeeva noted: “Nothing frightening is happening. What’s taking place is what Putin and Trump agreed to during their phone call... We can preliminarily surmise that—if we are to believe Axios—Putin promised to liberate four regions by the end of summer and said that we won’t go further than that. Trump is fine with it, according to what he just uttered.”",
+			"type": "text"
+		},
+		{
+			"_id": "3HSCUDQHF5CYHKOU7RSEBWMJEY",
+			"additional_properties": {},
+			"content": "Skabeeva surmised Trump’s statement to mean there won’t be a 500 percent tariff against Russian exports and no new sanctions anytime soon. She incredulously questioned whether this lackluster development was really the much-anticipated announcement the U.S. president has been teasing in prior days. Skabeeva couldn’t stop giggling in-between the clips of Trump’s statements, which she described as “bipolar statements from Washington.” She said that there is not a single European country that can immediately deliver 17 Patriot systems to Ukraine, as Trump just promised. ",
+			"type": "text"
+		},
+		{
+			"_id": "HLZ5D2VZNFAYHNLLOWRAX4CIA4",
+			"additional_properties": {},
+			"content": "State Duma deputy Leonid Kalashnikov said: “Ukraine, Trump is lying to you.” Addressing the U.S. president, Kalashnikov mockingly added: “Trump is always exclaiming that if he was president, this war would have never happened. So what is preventing you from stopping it now? Go ahead and do it.”",
+			"type": "text"
+		}
+	],
+	"copyright": "editorial",
+	"created_date": "2025-07-15T13:28:14.179Z",
+	"credits": {
+		"by": [
+			{
+				"_id": "TM2NXJRFBRPINECK6KYLUK7JRE",
+				"type": "author",
+				"version": "0.5.8",
+				"name": "Julia Davis",
+				"org": null,
+				"image": {
+					"url": "https://cloudfront-us-east-1.images.arcpublishing.com/thedailybeast/43XS5AZT6VKURCCEY73B2C37B4.jpg",
+					"version": "0.5.8"
+				},
+				"description": "",
+				"slug": "julia-davis",
+				"social_links": [
+					{
+						"site": "email",
+						"url": null
+					},
+					{
+						"site": "facebook",
+						"url": null
+					},
+					{
+						"site": "twitter",
+						"url": "JuliaDavisNews"
+					},
+					{
+						"site": "linkedin",
+						"url": null
+					}
+				],
+				"socialLinks": [
+					{
+						"site": "email",
+						"url": null,
+						"deprecated": true,
+						"deprecation_msg": "Please use social_links."
+					},
+					{
+						"site": "facebook",
+						"url": null,
+						"deprecated": true,
+						"deprecation_msg": "Please use social_links."
+					},
+					{
+						"site": "twitter",
+						"url": "JuliaDavisNews",
+						"deprecated": true,
+						"deprecation_msg": "Please use social_links."
+					},
+					{
+						"site": "linkedin",
+						"url": null,
+						"deprecated": true,
+						"deprecation_msg": "Please use social_links."
+					}
+				],
+				"additional_properties": {
+					"original": {
+						"_id": "TM2NXJRFBRPINECK6KYLUK7JRE",
+						"type": "author",
+						"version": "0.10.10",
+						"slug": "julia-davis",
+						"byline": "Julia Davis",
+						"firstName": "Julia",
+						"lastName": "Davis",
+						"image": "https://cloudfront-us-east-1.images.arcpublishing.com/thedailybeast/43XS5AZT6VKURCCEY73B2C37B4.jpg",
+						"expertise": null,
+						"location": null,
+						"role": null,
+						"email": null,
+						"twitter": "JuliaDavisNews",
+						"facebook": null,
+						"bio": "",
+						"longBio": "<p>Julia Davis is a columnist for The Daily Beast and the creator of the Russian Media Monitor. She is a member of the Academy of Television Arts and Sciences, the Screen Actors Guild, and Women In Film.</p>",
+						"last_updated_date": "2024-08-01T09:02:43.164Z",
+						"author_type": "freelance",
+						"linkedin": null,
+						"books": [],
+						"podcasts": [],
+						"education": [],
+						"awards": []
+					}
+				}
+			}
+		]
+	},
+	"description": {
+		"basic": ""
+	},
+	"display_date": "2025-07-15T16:05:38.966Z",
+	"distributor": {
+		"category": "staff",
+		"name": "thedailybeast",
+		"subcategory": ""
+	},
+	"first_publish_date": "2025-07-15T16:05:38.966Z",
+	"geo": {},
+	"headlines": {
+		"basic": "Putin Pals Say Trump’s Russia Threat Is Just an Epstein Smokescreen",
+		"meta_title": "Putin Pals Say Trump's Russia Threat Is Just an Epstein Smokescreen",
+		"mobile": "Putin Pals Say Trump's Russia Threat Is Just an Epstein Smokescreen",
+		"native": "",
+		"print": "",
+		"table": "",
+		"tablet": "",
+		"web": "Putin Pals Say Trump’s Russia Threat Is Epstein Smokescreen "
+	},
+	"label": {
+		"rubric": {
+			"display": true,
+			"text": "DISTRACTING MAGA"
+		}
+	},
+	"language": "",
+	"last_updated_date": "2025-07-15T16:49:17.996Z",
+	"owner": {
+		"id": "thedailybeast",
+		"sponsored": false
+	},
+	"planning": {
+		"scheduling": {},
+		"story_length": {
+			"character_count_actual": 5223,
+			"inch_count_actual": 5,
+			"line_count_actual": 31,
+			"word_count_actual": 827
+		}
+	},
+	"promo_items": {
+		"1_1": {
+			"_id": "SAYBPAO6JZARFHLX5Y27DOYRLQ",
+			"additional_properties": {
+				"fullSizeResizeUrl": "/resizer/v2/SAYBPAO6JZARFHLX5Y27DOYRLQ.jpg?auth=e2dcbcbf79844419f98d021434ad4b2a04a5190f971eced249e0c8ee21450355",
+				"galleries": [],
+				"ingestionMethod": "manual",
+				"mime_type": "image/jpeg",
+				"originalName": "250715-trump-epstein-russia-hero-1x1.jpg",
+				"originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/thedailybeast/SAYBPAO6JZARFHLX5Y27DOYRLQ.jpg",
+				"proxyUrl": "/resizer/v2/SAYBPAO6JZARFHLX5Y27DOYRLQ.jpg?auth=e2dcbcbf79844419f98d021434ad4b2a04a5190f971eced249e0c8ee21450355",
+				"published": true,
+				"resizeUrl": "/resizer/v2/SAYBPAO6JZARFHLX5Y27DOYRLQ.jpg?auth=e2dcbcbf79844419f98d021434ad4b2a04a5190f971eced249e0c8ee21450355",
+				"restricted": false,
+				"thumbnailResizeUrl": "/resizer/v2/SAYBPAO6JZARFHLX5Y27DOYRLQ.jpg?auth=e2dcbcbf79844419f98d021434ad4b2a04a5190f971eced249e0c8ee21450355&width=300",
+				"version": 1,
+				"template_id": 1305
+			},
+			"address": {},
+			"alt_text": "Jeffrey Epstein, Donald Trump, Vladimir Putin",
+			"auth": {
+				"1": "e2dcbcbf79844419f98d021434ad4b2a04a5190f971eced249e0c8ee21450355"
+			},
+			"caption": "",
+			"created_date": "2025-07-15T15:17:57Z",
+			"credits": {
+				"affiliation": [
+					{
+						"name": "Photo Illustration by Elizabeth Brockway/The Daily Beast/Getty",
+						"type": "author"
+					}
+				]
+			},
+			"height": 1688,
+			"image_type": "photograph",
+			"last_updated_date": "2025-07-15T16:05:38Z",
+			"licensable": false,
+			"owner": {
+				"id": "thedailybeast",
+				"sponsored": false
+			},
+			"source": {
+				"additional_properties": {
+					"editor": "photo center"
+				},
+				"edit_url": "https://thedailybeast.arcpublishing.com/photo/SAYBPAO6JZARFHLX5Y27DOYRLQ",
+				"system": "photo center"
+			},
+			"subtitle": "",
+			"taxonomy": {
+				"associated_tasks": []
+			},
+			"type": "image",
+			"url": "https://cloudfront-us-east-1.images.arcpublishing.com/thedailybeast/SAYBPAO6JZARFHLX5Y27DOYRLQ.jpg",
+			"version": "0.10.9",
+			"width": 1688,
+			"syndication": {},
+			"creditIPTC": "Photo Illustration by Elizabeth Brockway/The Daily Beast/Getty"
+		},
+		"basic": {
+			"_id": "2K5Q5NX7HZB6BABVG4BBKWKVO4",
+			"additional_properties": {
+				"fullSizeResizeUrl": "/resizer/v2/2K5Q5NX7HZB6BABVG4BBKWKVO4.jpg?auth=2bd9ae6624af8955419539b3097b73107c3c01268316b9f922ac03484abf9df5",
+				"galleries": [],
+				"ingestionMethod": "manual",
+				"mime_type": "image/jpeg",
+				"originalName": "250715-trump-epstein-russia-hero.jpg",
+				"originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/thedailybeast/2K5Q5NX7HZB6BABVG4BBKWKVO4.jpg",
+				"proxyUrl": "/resizer/v2/2K5Q5NX7HZB6BABVG4BBKWKVO4.jpg?auth=2bd9ae6624af8955419539b3097b73107c3c01268316b9f922ac03484abf9df5",
+				"published": true,
+				"resizeUrl": "/resizer/v2/2K5Q5NX7HZB6BABVG4BBKWKVO4.jpg?auth=2bd9ae6624af8955419539b3097b73107c3c01268316b9f922ac03484abf9df5",
+				"restricted": false,
+				"thumbnailResizeUrl": "/resizer/v2/2K5Q5NX7HZB6BABVG4BBKWKVO4.jpg?auth=2bd9ae6624af8955419539b3097b73107c3c01268316b9f922ac03484abf9df5&width=300",
+				"version": 1,
+				"template_id": 1305
+			},
+			"address": {},
+			"alt_text": "Jeffrey Epstein, Donald Trump, Vladimir Putin",
+			"auth": {
+				"1": "2bd9ae6624af8955419539b3097b73107c3c01268316b9f922ac03484abf9df5"
+			},
+			"caption": "",
+			"created_date": "2025-07-15T15:18:01Z",
+			"credits": {
+				"affiliation": [
+					{
+						"name": "Photo Illustration by Elizabeth Brockway/The Daily Beast/Getty",
+						"type": "author"
+					}
+				]
+			},
+			"height": 1688,
+			"image_type": "photograph",
+			"last_updated_date": "2025-07-15T16:05:39Z",
+			"licensable": false,
+			"owner": {
+				"id": "thedailybeast",
+				"sponsored": false
+			},
+			"source": {
+				"additional_properties": {
+					"editor": "photo center"
+				},
+				"edit_url": "https://thedailybeast.arcpublishing.com/photo/2K5Q5NX7HZB6BABVG4BBKWKVO4",
+				"system": "photo center"
+			},
+			"subtitle": "",
+			"taxonomy": {
+				"associated_tasks": []
+			},
+			"type": "image",
+			"url": "https://cloudfront-us-east-1.images.arcpublishing.com/thedailybeast/2K5Q5NX7HZB6BABVG4BBKWKVO4.jpg",
+			"version": "0.10.9",
+			"width": 3000,
+			"syndication": {},
+			"creditIPTC": "Photo Illustration by Elizabeth Brockway/The Daily Beast/Getty"
+		}
+	},
+	"publish_date": "2025-07-15T16:49:17.662Z",
+	"related_content": {
+		"basic": [
+			{
+				"_id": "IULYDO6LR5ACHO2UW6LZOKE4DA",
+				"referent": {
+					"id": "IULYDO6LR5ACHO2UW6LZOKE4DA",
+					"provider": "",
+					"type": "story"
+				},
+				"type": "reference"
+			},
+			{
+				"_id": "NJL4MR5CAJGULP6MELSARR5LS4",
+				"referent": {
+					"id": "NJL4MR5CAJGULP6MELSARR5LS4",
+					"provider": "",
+					"type": "story"
+				},
+				"type": "reference"
+			}
+		],
+		"clonedChildren": [],
+		"clonedFromParent": []
+	},
+	"revision": {
+		"branch": "default",
+		"editions": ["default"],
+		"parent_id": "WAVAWTQVPVDUBBAT4KBXCVFUGE",
+		"published": true,
+		"revision_id": "DLQ6RQ36WNBQXFRJRV7OOAVAJQ"
+	},
+	"source": {
+		"name": "thedailybeast",
+		"source_type": "staff",
+		"system": "composer"
+	},
+	"subheadlines": {
+		"basic": "Russian pundits and experts saw the Ukrainian announcement as subterfuge."
+	},
+	"subtype": "standard-tdb",
+	"taxonomy": {
+		"primary_section": {
+			"_id": "/world",
+			"_website": "thedailybeast",
+			"type": "section",
+			"version": "0.6.0",
+			"name": "World",
+			"path": "/world",
+			"parent_id": "/",
+			"parent": {
+				"default": "/"
+			},
+			"additional_properties": {
+				"original": {
+					"_id": "/world",
+					"_website": "thedailybeast",
+					"name": "World",
+					"inactive": false,
+					"ancestors": {
+						"default": ["/"],
+						"composer": ["/"],
+						"bottomNavFooter": ["/"],
+						"footerNavMobile": ["/"],
+						"burgerNav": ["/"],
+						"footerNav": ["/"]
+					},
+					"parent": {
+						"default": "/",
+						"composer": "/",
+						"bottomNavFooter": "/",
+						"footerNavMobile": "/",
+						"burgerNav": "/",
+						"footerNav": "/"
+					},
+					"order": {
+						"default": 1013,
+						"composer": 1009,
+						"bottomNavFooter": 1005,
+						"footerNavMobile": 1005,
+						"burgerNav": 1005,
+						"footerNav": 1005
+					},
+					"meta_description": "From breaking news to in-depth analysis and opinion on global affairs, stay informed with the latest world news from The Daily Beast.",
+					"meta_title": "World News, Analysis & Opinion - The Daily Beast",
+					"node_type": "section"
+				}
+			}
+		},
+		"primary_site": {
+			"_id": "/world",
+			"type": "site",
+			"version": "0.5.8",
+			"name": "World",
+			"path": "/world",
+			"parent_id": "/",
+			"additional_properties": {
+				"original": {
+					"_id": "/world",
+					"name": "World",
+					"inactive": false,
+					"ancestors": {
+						"default": ["/"],
+						"composer": ["/"],
+						"bottomNavFooter": ["/"],
+						"footerNavMobile": ["/"],
+						"burgerNav": ["/"],
+						"footerNav": ["/"]
+					},
+					"parent": {
+						"default": "/",
+						"composer": "/",
+						"bottomNavFooter": "/",
+						"footerNavMobile": "/",
+						"burgerNav": "/",
+						"footerNav": "/"
+					},
+					"order": {
+						"default": 1013,
+						"composer": 1009,
+						"bottomNavFooter": 1005,
+						"footerNavMobile": 1005,
+						"burgerNav": 1005,
+						"footerNav": 1005
+					},
+					"meta_description": "From breaking news to in-depth analysis and opinion on global affairs, stay informed with the latest world news from The Daily Beast.",
+					"meta_title": "World News, Analysis & Opinion - The Daily Beast",
+					"node_type": "section"
+				}
+			}
+		},
+		"sections": [
+			{
+				"_id": "/world",
+				"_website": "thedailybeast",
+				"type": "section",
+				"version": "0.6.0",
+				"name": "World",
+				"path": "/world",
+				"parent_id": "/",
+				"parent": {
+					"default": "/"
+				},
+				"additional_properties": {
+					"original": {
+						"_id": "/world",
+						"_website": "thedailybeast",
+						"name": "World",
+						"inactive": false,
+						"ancestors": {
+							"default": ["/"],
+							"composer": ["/"],
+							"bottomNavFooter": ["/"],
+							"footerNavMobile": ["/"],
+							"burgerNav": ["/"],
+							"footerNav": ["/"]
+						},
+						"parent": {
+							"default": "/",
+							"composer": "/",
+							"bottomNavFooter": "/",
+							"footerNavMobile": "/",
+							"burgerNav": "/",
+							"footerNav": "/"
+						},
+						"order": {
+							"default": 1013,
+							"composer": 1009,
+							"bottomNavFooter": 1005,
+							"footerNavMobile": 1005,
+							"burgerNav": 1005,
+							"footerNav": 1005
+						},
+						"meta_description": "From breaking news to in-depth analysis and opinion on global affairs, stay informed with the latest world news from The Daily Beast.",
+						"meta_title": "World News, Analysis & Opinion - The Daily Beast",
+						"node_type": "section"
+					}
+				},
+				"_website_section_id": "thedailybeast./world"
+			}
+		],
+		"sites": [
+			{
+				"_id": "/world",
+				"type": "site",
+				"version": "0.5.8",
+				"name": "World",
+				"path": "/world",
+				"parent_id": "/",
+				"additional_properties": {
+					"original": {
+						"_id": "/world",
+						"name": "World",
+						"inactive": false,
+						"ancestors": {
+							"default": ["/"],
+							"composer": ["/"],
+							"bottomNavFooter": ["/"],
+							"footerNavMobile": ["/"],
+							"burgerNav": ["/"],
+							"footerNav": ["/"]
+						},
+						"parent": {
+							"default": "/",
+							"composer": "/",
+							"bottomNavFooter": "/",
+							"footerNavMobile": "/",
+							"burgerNav": "/",
+							"footerNav": "/"
+						},
+						"order": {
+							"default": 1013,
+							"composer": 1009,
+							"bottomNavFooter": 1005,
+							"footerNavMobile": 1005,
+							"burgerNav": 1005,
+							"footerNav": 1005
+						},
+						"meta_description": "From breaking news to in-depth analysis and opinion on global affairs, stay informed with the latest world news from The Daily Beast.",
+						"meta_title": "World News, Analysis & Opinion - The Daily Beast",
+						"node_type": "section"
+					}
+				}
+			}
+		],
+		"tags": [
+			{
+				"description": "Donald J. Trump",
+				"slug": "donald-j-trump",
+				"text": "Donald J. Trump"
+			},
+			{
+				"description": "Russia",
+				"slug": "russia",
+				"text": "Russia"
+			},
+			{
+				"description": "Putin",
+				"slug": "putin",
+				"text": "Putin"
+			},
+			{
+				"description": "Jeffrey Epstein",
+				"slug": "jeffrey-epstein",
+				"text": "Jeffrey Epstein"
+			}
+		]
+	},
+	"type": "story",
+	"version": "0.10.11",
+	"websites": {
+		"thedailybeast": {
+			"website_section": {
+				"_id": "/world",
+				"_website": "thedailybeast",
+				"type": "section",
+				"version": "0.6.0",
+				"name": "World",
+				"path": "/world",
+				"parent_id": "/",
+				"parent": {
+					"default": "/"
+				},
+				"additional_properties": {
+					"original": {
+						"_id": "/world",
+						"_website": "thedailybeast",
+						"name": "World",
+						"inactive": false,
+						"ancestors": {
+							"default": ["/"],
+							"composer": ["/"],
+							"bottomNavFooter": ["/"],
+							"footerNavMobile": ["/"],
+							"burgerNav": ["/"],
+							"footerNav": ["/"]
+						},
+						"parent": {
+							"default": "/",
+							"composer": "/",
+							"bottomNavFooter": "/",
+							"footerNavMobile": "/",
+							"burgerNav": "/",
+							"footerNav": "/"
+						},
+						"order": {
+							"default": 1013,
+							"composer": 1009,
+							"bottomNavFooter": 1005,
+							"footerNavMobile": 1005,
+							"burgerNav": 1005,
+							"footerNav": 1005
+						},
+						"meta_description": "From breaking news to in-depth analysis and opinion on global affairs, stay informed with the latest world news from The Daily Beast.",
+						"meta_title": "World News, Analysis & Opinion - The Daily Beast",
+						"node_type": "section"
+					}
+				},
+				"_website_section_id": "thedailybeast./world"
+			},
+			"website_url": "/putin-pals-say-trumps-russia-threat-is-just-an-epstein-smokescreen/"
+		}
+	},
+	"workflow": {
+		"status_code": 1
+	},
+	"canonical_url": "/putin-pals-say-trumps-russia-threat-is-just-an-epstein-smokescreen/",
+	"publishing": {
+		"scheduled_operations": {
+			"publish_edition": [],
+			"unpublish_edition": []
+		}
+	},
+	"website": "thedailybeast",
+	"website_url": "/putin-pals-say-trumps-russia-threat-is-just-an-epstein-smokescreen/"
+}

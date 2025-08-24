@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- HEAD SECTION: FOR LOCAL TESTING ONLY -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login or Join</title>
+		<link rel="stylesheet" href="login.css" />
+	</head>
+
+	<body>
+		<!-- COPY BELOW FOR ZEPHR -->
+		<!-- External Dependencies -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Druk+Text:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+		/>
+
+		<div id="login-container">
+			<div class="login-screen-container">
+				<div class="login-card">
+					<!-- Screen 1: Email and Social Auth -->
+					<div id="screen1" class="screen active">
+						<div class="title-container">
+							<h2 class="title-text">Sign in or Register</h2>
+							<div class="title-underline"></div>
+						</div>
+
+						<!-- COMMENTED OUT - Using Zephr's social login component instead
+						<div class="sso-buttons-container">
+							<button id="google-auth" class="sso-button">
+								<i class="fab fa-google"></i>
+								Continue with Google
+							</button>
+							<button id="facebook-auth" class="sso-button">
+								<i class="fab fa-facebook-f"></i>
+								Continue with Facebook
+							</button>
+						</div>
+
+						<div class="separator-container">
+							<div class="separator-line"></div>
+							<span class="separator-text">or</span>
+							<div class="separator-line"></div>
+						</div>
+						-->
+
+						<form id="email-form" class="email-form">
+							<div>
+								<label for="email">Email address</label>
+								<input
+									type="email"
+									id="email"
+									placeholder="Enter your email"
+									required
+								/>
+							</div>
+							<!-- Testing Controls (only shown in development) -->
+							<div
+								id="testing-controls"
+								class="testing-controls"
+								style="display: none"
+							>
+								<label class="testing-checkbox">
+									<input type="checkbox" id="override-user-check" />
+									<span>Override user check (for testing)</span>
+								</label>
+								<div class="testing-options">
+									<label class="radio-option">
+										<input
+											type="radio"
+											name="user-type"
+											value="existing"
+											checked
+										/>
+										<span>Treat as existing user (login flow)</span>
+									</label>
+									<label class="radio-option">
+										<input type="radio" name="user-type" value="new" />
+										<span>Treat as new user (registration flow)</span>
+									</label>
+								</div>
+							</div>
+							<div>
+								<button type="submit" class="submit-button" disabled>
+									Continue
+								</button>
+							</div>
+						</form>
+					</div>
+
+					<!-- Screen 2: Registration (shown if user doesn't exist) -->
+					<div id="screen2" class="screen">
+						<div class="title-container">
+							<h2 class="title-text">Create Your Account</h2>
+							<div class="title-underline"></div>
+						</div>
+						<p>We'll create your account and log you in automatically.</p>
+						<div id="registration-status"></div>
+					</div>
+
+					<!-- Screen 3: OTP Verification (shown if user exists) -->
+					<div id="screen3" class="screen">
+						<div class="title-container">
+							<h2 id="otp-title" class="title-text">Enter Verification Code</h2>
+							<div class="title-underline"></div>
+						</div>
+						<p id="otp-message">
+							We've sent a verification code to your email address. Please enter
+							the code below to sign in.
+						</p>
+						<form id="otp-form" class="email-form">
+							<div>
+								<label for="otp">Verification Code</label>
+								<input
+									type="number"
+									id="otp"
+									placeholder="Enter 6-digit code"
+									maxlength="6"
+									pattern="[0-9]{6}"
+									required
+								/>
+							</div>
+							<div>
+								<button type="submit" class="submit-button" disabled>
+									Verify
+								</button>
+							</div>
+						</form>
+						<p style="margin-top: 16px; font-size: 14px; color: #718096">
+							Didn't receive the code?
+							<a
+								href="#"
+								id="resend-otp"
+								style="
+									color: #e53e3e;
+									text-decoration: underline;
+									cursor: pointer;
+								"
+							>
+								Resend
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			// GTM Data Layer Event Push Helper
+			function pushToDataLayer(eventObj) {
+				window.dataLayer = window.dataLayer || [];
+				window.dataLayer.push(eventObj);
+			}
+
+			// Zephr Form Event Tracker Helper
+			function trackZephrFormEvent({
+				event,
+				formType,
+				inputName,
+				sectionId,
+				field,
+				partId,
+				previousPartId,
+				buttonType,
+				success,
+				...rest // allow for future extensibility
+			}) {
+				const zephrOutcomes =
+					window.Zephr &&
+					typeof window.Zephr.outcomes === "object" &&
+					window.Zephr.outcomes !== undefined
+						? { ...window.Zephr.outcomes }
+						: {};
+
+				let zephrActivity;
+				if (
+					window.__tdbHelpers &&
+					typeof window.__tdbHelpers.getCookieByName === "function"
+				) {
+					zephrActivity = {
+						loggedIn: false,
+						activeSessions: 1,
+						trackingId:
+							window.__tdbHelpers.getCookieByName("blaize_tracking_id"),
+					};
+				}
+
+				const eventObj = {
+					event,
+					formType,
+					zephrOutcomes,
+					inputName,
+					sectionId,
+					field,
+					partId,
+					previousPartId,
+					buttonType,
+					success,
+					...rest,
+				};
+
+				if (zephrActivity) {
+					eventObj.zephrActivity = zephrActivity;
+				}
+
+				pushToDataLayer(eventObj);
+			}
+
+			// Configuration
+			// For development/testing, use mock API server
+			// For production, use: window.location.origin
+			const ZEPHR_API_BASE =
+				window.location.hostname === "localhost" ||
+				window.location.hostname === "127.0.0.1"
+					? "http://localhost:3333"
+					: window.location.origin;
+
+			// DOM Elements
+			const emailForm = document.getElementById("email-form");
+			const otpForm = document.getElementById("otp-form");
+			const googleAuthBtn = document.getElementById("google-auth");
+			const facebookAuthBtn = document.getElementById("facebook-auth");
+			const screens = document.querySelectorAll(".screen");
+			const submitButton = document.querySelector("#email-form .submit-button");
+			const otpSubmitButton = document.querySelector(
+				"#otp-form .submit-button"
+			);
+			const registrationStatus = document.getElementById("registration-status");
+			const emailInput = document.getElementById("email");
+			const otpInput = document.getElementById("otp");
+			const resendOtpLink = document.getElementById("resend-otp");
+			const otpTitle = document.getElementById("otp-title");
+			const otpMessage = document.getElementById("otp-message");
+
+			// Testing Controls
+			const testingControls = document.getElementById("testing-controls");
+			const overrideCheckbox = document.getElementById("override-user-check");
+			const testingOptions = document.querySelector(".testing-options");
+			const userTypeRadios = document.querySelectorAll(
+				'input[name="user-type"]'
+			);
+
+			// Store current email and user status for OTP verification
+			let currentEmail = "";
+			let isNewUser = false;
+
+			// Initialize testing controls
+			function initializeTestingControls() {
+				// Show testing controls only in development
+				if (
+					window.location.hostname === "localhost" ||
+					window.location.hostname === "127.0.0.1"
+				) {
+					testingControls.style.display = "block";
+
+					// Handle checkbox toggle
+					overrideCheckbox.addEventListener("change", function () {
+						if (this.checked) {
+							testingOptions.classList.add("enabled");
+							// Enable radio buttons
+							userTypeRadios.forEach((radio) => (radio.disabled = false));
+						} else {
+							testingOptions.classList.remove("enabled");
+							// Disable radio buttons
+							userTypeRadios.forEach((radio) => (radio.disabled = true));
+						}
+					});
+
+					// Initially disable radio buttons
+					userTypeRadios.forEach((radio) => (radio.disabled = true));
+				}
+			}
+
+			// Helper function to show specific screen
+			function showScreen(screenId) {
+				screens.forEach((screen) => {
+					screen.classList.remove("active");
+				});
+				document.getElementById(screenId).classList.add("active");
+			}
+
+			// Helper function to show loading state
+			function setLoading(isLoading, button = submitButton) {
+				if (isLoading) {
+					button.disabled = true;
+					button.innerHTML = '<div class="spinner"></div>Processing...';
+				} else {
+					button.disabled = !isFormValid(button);
+					button.innerHTML = button === submitButton ? "Continue" : "Verify";
+				}
+			}
+
+			// Helper function to check if form is valid
+			function isFormValid(button) {
+				if (button === submitButton) {
+					return isValidEmail(emailInput.value.trim());
+				} else if (button === otpSubmitButton) {
+					return otpInput.value.trim().length === 6;
+				}
+				return false;
+			}
+
+			// Helper function to show error message
+			function showError(message, form = emailForm) {
+				const errorContainer = document.createElement("div");
+				errorContainer.className = "error-message-container";
+				errorContainer.innerHTML = `<p class="error-message-text">${message}</p>`;
+				form.insertBefore(errorContainer, form.firstChild);
+			}
+
+			// Helper function to clear error messages
+			function clearErrors(form) {
+				const existingError = form.querySelector(".error-message-container");
+				if (existingError) {
+					existingError.remove();
+				}
+			}
+
+			// Helper function to validate email
+			function isValidEmail(email) {
+				const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+				return emailRegex.test(email);
+			}
+
+			// Helper function to update submit button state
+			function updateSubmitButtonState() {
+				const email = emailInput.value.trim();
+				const isValid = isValidEmail(email);
+				submitButton.disabled = !isValid;
+			}
+
+			// Helper function to update OTP submit button state
+			function updateOtpSubmitButtonState() {
+				const otp = otpInput.value.trim();
+				const isValid = otp.length === 6;
+				otpSubmitButton.disabled = !isValid;
+			}
+
+			// Helper function to update OTP screen messaging
+			function updateOtpScreenMessage(isRegistration) {
+				if (isRegistration) {
+					otpTitle.textContent = "Welcome! Confirm Your Account";
+					otpMessage.textContent =
+						"Thanks for registering! We've sent a verification code to your email address. Please enter the code below to confirm your account and complete your login.";
+				} else {
+					otpTitle.textContent = "Enter Verification Code";
+					otpMessage.textContent =
+						"We've sent a verification code to your email address. Please enter the code below to sign in.";
+				}
+			}
+
+			// Check if user exists
+			async function checkUserExists(email) {
+				// Check if testing override is enabled
+				if (overrideCheckbox && overrideCheckbox.checked) {
+					const selectedType = document.querySelector(
+						'input[name="user-type"]:checked'
+					).value;
+					console.log(`🧪 Testing override: treating user as ${selectedType}`);
+					return selectedType === "existing";
+				}
+
+				try {
+					const response = await fetch(
+						`${ZEPHR_API_BASE}/zephr/media/user/info`,
+						{
+							method: "POST",
+							credentials: "include",
+							headers: {
+								"Content-Type": "application/json",
+							},
+							body: JSON.stringify({
+								identifiers: {
+									email_address: email,
+								},
+							}),
+						}
+					);
+					return response.status === 200;
+				} catch (error) {
+					console.error("Error checking user:", error);
+					return false;
+				}
+			}
+
+			// Send OTP to user's email
+			async function sendOTP(email, action = "login") {
+				try {
+					const response = await fetch(
+						`${ZEPHR_API_BASE}/blaize/two-factor-authentication`,
+						{
+							method: "POST",
+							headers: {
+								"Content-Type": "application/json",
+							},
+							credentials: "include",
+							body: JSON.stringify({
+								action: action,
+								identifiers: {
+									email_address: email,
+								},
+								method: "email",
+							}),
+						}
+					);
+
+					if (!response.ok) {
+						throw new Error("Failed to send verification code");
+					}
+
+					return true;
+				} catch (error) {
+					console.error("Error sending OTP:", error);
+					return false;
+				}
+			}
+
+			// Verify OTP and login
+			async function verifyOTP(email, otp) {
+				try {
+					const response = await fetch(`${ZEPHR_API_BASE}/blaize/login`, {
+						method: "POST",
+						headers: {
+							"Content-Type": "application/json",
+						},
+						credentials: "include",
+						body: JSON.stringify({
+							identifiers: {
+								email_address: email,
+							},
+							validators: {
+								email_otp: otp,
+							},
+						}),
+					});
+
+					if (!response.ok) {
+						throw new Error("Invalid verification code");
+					}
+					// login otp event
+					trackZephrFormEvent({
+						event: "zephr_form_login",
+						formType: "LOGIN",
+						inputName: "zephr-form-otp",
+						sectionId: "otp",
+						field: "otp",
+						partId: "otp-form",
+						previousPartId: "email-form",
+						buttonType: "VERIFY",
+						success: true,
+					});
+					// Refresh the page to reflect logged-in state after 2 seconds
+					setTimeout(() => {
+						window.location.reload();
+					}, 2000);
+					return true;
+				} catch (error) {
+					console.error("Error verifying OTP:", error);
+					return false;
+				}
+			}
+
+			// Register new user with OTP
+			async function registerUserWithOTP(email, otp) {
+				try {
+					const response = await fetch(`${ZEPHR_API_BASE}/blaize/register`, {
+						method: "POST",
+						headers: {
+							"Content-Type": "application/json",
+						},
+						credentials: "include",
+						body: JSON.stringify({
+							identifiers: {
+								email_address: email,
+							},
+							validators: {
+								email_otp: otp,
+							},
+						}),
+					});
+
+					if (!response.ok) {
+						throw new Error("Registration failed");
+					}
+
+					//register otp event success
+					trackZephrFormEvent({
+						event: "zephr_form_register",
+						formType: "REGISTER",
+						inputName: "zephr-form-otp",
+						sectionId: "otp",
+						field: "otp",
+						partId: "otp-form",
+						previousPartId: "email-form",
+						buttonType: "VERIFY",
+						success: true,
+					});
+					// Refresh the page to reflect logged-in state after 2 seconds
+					setTimeout(() => {
+						window.location.reload();
+					}, 2000);
+					return true;
+				} catch (error) {
+					console.error("Error registering user:", error);
+					return false;
+				}
+			}
+
+			// Handle email form submission
+			emailForm.addEventListener("submit", async (e) => {
+				e.preventDefault();
+				setLoading(true);
+				clearErrors(emailForm);
+
+				const email = emailInput.value.trim();
+				currentEmail = email;
+
+				try {
+					const userExists = await checkUserExists(email);
+					isNewUser = !userExists;
+
+					if (userExists) {
+						// Send OTP for login and show OTP verification screen
+						const success = await sendOTP(email, "login");
+						if (success) {
+							trackZephrFormEvent({
+								event: "zephr_form_login",
+								formType: "LOGIN",
+								inputName: "zephr-form-email",
+								sectionId: "email",
+								field: "email",
+								partId: "email-form",
+								buttonType: "SUBMIT",
+								success,
+							});
+							updateOtpScreenMessage(false);
+							showScreen("screen3");
+							otpInput.focus();
+						} else {
+							trackZephrFormEvent({
+								event: "zephr_form_login",
+								formType: "LOGIN",
+								inputName: "zephr-form-email",
+								sectionId: "email",
+								field: "email",
+								partId: "email-form",
+								buttonType: "SUBMIT",
+								success,
+							});
+							showError("Failed to send verification code. Please try again.");
+						}
+					} else {
+						// Send OTP for registration and show OTP verification screen
+						const success = await sendOTP(email, "register");
+						if (success) {
+							trackZephrFormEvent({
+								event: "zephr_form_register",
+								formType: "REGISTER",
+								inputName: "zephr-form-email",
+								sectionId: "email",
+								field: "email",
+								partId: "email-form",
+								buttonType: "SUBMIT",
+								success,
+							});
+							updateOtpScreenMessage(true);
+							showScreen("screen3");
+							otpInput.focus();
+						} else {
+							trackZephrFormEvent({
+								event: "zephr_form_register",
+								formType: "REGISTER",
+								inputName: "zephr-form-email",
+								sectionId: "email",
+								field: "email",
+								partId: "email-form",
+								buttonType: "SUBMIT",
+								success,
+							});
+							showError("Failed to send verification code. Please try again.");
+						}
+					}
+				} catch (error) {
+					showError("An error occurred. Please try again.");
+					showScreen("screen1");
+				} finally {
+					setLoading(false);
+				}
+			});
+
+			// Handle OTP form submission
+			otpForm.addEventListener("submit", async (e) => {
+				e.preventDefault();
+				setLoading(true, otpSubmitButton);
+				clearErrors(otpForm);
+
+				const otp = otpInput.value.trim();
+
+				try {
+					let success;
+					if (isNewUser) {
+						// Register new user with OTP
+						success = await registerUserWithOTP(currentEmail, otp);
+					} else {
+						// Login existing user with OTP
+						success = await verifyOTP(currentEmail, otp);
+					}
+
+					if (!success) {
+						const errorMessage = isNewUser
+							? "Registration failed. Please check your verification code and try again."
+							: "Invalid verification code. Please try again.";
+
+						// Track failed event for the relevant form type
+						trackZephrFormEvent({
+							event: isNewUser ? "zephr_form_register" : "zephr_form_login",
+							formType: isNewUser ? "REGISTER" : "LOGIN",
+							inputName: "zephr-form-otp",
+							sectionId: "otp",
+							field: "otp",
+							partId: "otp-form",
+							previousPartId: "email-form",
+							buttonType: "VERIFY",
+							success,
+						});
+						showError(errorMessage, otpForm);
+					}
+				} catch (error) {
+					showError("An error occurred. Please try again.", otpForm);
+				} finally {
+					setLoading(false, otpSubmitButton);
+				}
+			});
+
+			// Handle resend OTP
+			resendOtpLink.addEventListener("click", async (e) => {
+				e.preventDefault();
+				if (currentEmail) {
+					const action = isNewUser ? "register" : "login";
+					const success = await sendOTP(currentEmail, action);
+					if (success) {
+						// Show temporary success message
+						resendOtpLink.textContent = "Code sent!";
+						setTimeout(() => {
+							resendOtpLink.textContent = "Resend";
+						}, 3000);
+					} else {
+						showError(
+							"Failed to resend verification code. Please try again.",
+							otpForm
+						);
+					}
+				}
+			});
+
+			// COMMENTED OUT - Using Zephr's social login component instead
+			/*
+			// OAuth Handlers
+			function handleGoogleAuth() {
+				// Clear any existing listeners
+				if (window.zephrOAuthListener) {
+					window.removeEventListener("message", window.zephrOAuthListener);
+					delete window.zephrOAuthListener;
+				}
+
+				console.log("Starting Google OAuth flow...");
+
+				// Open popup window with proper parameters
+				const popup = window.open(
+					`${ZEPHR_API_BASE}/blaize/oauth/google`,
+					"google-signin",
+					"menubar=no,location=yes,resizable=no,scrollbars=no,status=no,width=500,height=600"
+				);
+
+				if (!popup) {
+					console.error(
+						"Failed to open OAuth popup - popup blocker may be active"
+					);
+					return;
+				}
+
+				console.log("OAuth popup opened successfully");
+
+				// Create message listener for OAuth completion - very permissive approach
+				window.zephrOAuthListener = function (event) {
+					console.log("Message received:", {
+						origin: event.origin,
+						data: event.data,
+						source: event.source,
+					});
+
+					// Very permissive check - accept any message that looks like OAuth completion
+					if (event.data) {
+						// Check for various possible OAuth completion signals
+						const isOAuthMessage =
+							event.data.action === "login" ||
+							event.data.action === "register" ||
+							(typeof event.data === "string" &&
+								(event.data.includes("login") ||
+									event.data.includes("register"))) ||
+							event.data.type === "oauth-complete" ||
+							event.data.oauth === true ||
+							event.data.success === true;
+
+						if (isOAuthMessage) {
+							console.log("OAuth completion detected:", event.data);
+
+							// Clean up listener
+							window.removeEventListener(
+								"message",
+								window.zephrOAuthListener
+							);
+							delete window.zephrOAuthListener;
+
+							// Reload page after delay for session establishment
+							console.log("Reloading page in 2 seconds...");
+							setTimeout(() => {
+								window.location.reload();
+							}, 2000);
+							return;
+						}
+					}
+				};
+
+				// Add message listener
+				window.addEventListener("message", window.zephrOAuthListener);
+				console.log("OAuth message listener added");
+
+				// Shorter time-based fallback since COOP blocks popup communication
+				// Most OAuth flows complete within 10-15 seconds
+				setTimeout(() => {
+					if (window.zephrOAuthListener) {
+						console.log(
+							"OAuth timeout reached (15s) - checking authentication status..."
+						);
+						window.removeEventListener("message", window.zephrOAuthListener);
+						delete window.zephrOAuthListener;
+
+						// Reload the page to check if user is now authenticated
+						window.location.reload();
+					}
+				}, 15000);
+			}
+
+			function handleFacebookAuth() {
+				// Clear any existing listeners
+				if (window.zephrOAuthListener) {
+					window.removeEventListener("message", window.zephrOAuthListener);
+					delete window.zephrOAuthListener;
+				}
+
+				console.log("Starting Facebook OAuth flow...");
+
+				// Open popup window with proper parameters to match working component
+				const popup = window.open(
+					`${ZEPHR_API_BASE}/blaize/oauth/facebook`,
+					"facebook-signin",
+					"menubar=no,location=yes,resizable=no,scrollbars=no,status=no,width=500,height=600"
+				);
+
+				if (!popup) {
+					console.error(
+						"Failed to open OAuth popup - popup blocker may be active"
+					);
+					return;
+				}
+
+				console.log("OAuth popup opened successfully");
+
+				// Create message listener for OAuth completion - very permissive approach
+				window.zephrOAuthListener = function (event) {
+					console.log("Message received:", {
+						origin: event.origin,
+						data: event.data,
+						source: event.source,
+					});
+
+					// Very permissive check - accept any message that looks like OAuth completion
+					if (event.data) {
+						// Check for various possible OAuth completion signals
+						const isOAuthMessage =
+							event.data.action === "login" ||
+							event.data.action === "register" ||
+							(typeof event.data === "string" &&
+								(event.data.includes("login") ||
+									event.data.includes("register"))) ||
+							event.data.type === "oauth-complete" ||
+							event.data.oauth === true ||
+							event.data.success === true;
+
+						if (isOAuthMessage) {
+							console.log("OAuth completion detected:", event.data);
+
+							// Clean up listener
+							window.removeEventListener("message", window.zephrOAuthListener);
+							delete window.zephrOAuthListener;
+
+							// Reload page after delay for session establishment
+							console.log("Reloading page in 2 seconds...");
+							setTimeout(() => {
+								window.location.reload();
+							}, 2000);
+							return;
+						}
+					}
+				};
+
+				// Add message listener
+				window.addEventListener("message", window.zephrOAuthListener);
+				console.log("OAuth message listener added");
+
+				// Shorter time-based fallback since COOP blocks popup communication
+				// Most OAuth flows complete within 10-15 seconds
+				setTimeout(() => {
+					if (window.zephrOAuthListener) {
+						console.log(
+							"OAuth timeout reached (15s) - checking authentication status..."
+						);
+						window.removeEventListener("message", window.zephrOAuthListener);
+						delete window.zephrOAuthListener;
+
+						// Reload the page to check if user is now authenticated
+						window.location.reload();
+					}
+				}, 15000);
+			}
+
+			// Handle social auth - Popup approach with improved session handling
+			googleAuthBtn.addEventListener("click", handleGoogleAuth);
+			facebookAuthBtn.addEventListener("click", handleFacebookAuth);
+			*/
+
+			// Add email validation listener
+			emailInput.addEventListener("input", updateSubmitButtonState);
+			emailInput.addEventListener("blur", updateSubmitButtonState);
+
+			// Add OTP validation listener
+			otpInput.addEventListener("input", updateOtpSubmitButtonState);
+			otpInput.addEventListener("blur", updateOtpSubmitButtonState);
+
+			// Auto-format OTP input (only allow numbers)
+			otpInput.addEventListener("input", (e) => {
+				e.target.value = e.target.value.replace(/[^0-9]/g, "");
+			});
+
+			// Initialize testing controls
+			initializeTestingControls();
+		</script>
+	</body>
+</html>

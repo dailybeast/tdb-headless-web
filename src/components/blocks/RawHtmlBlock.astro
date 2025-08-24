@@ -1,0 +1,14 @@
+---
+import type { RawHtmlBlock } from '@/lib/types';
+
+interface Props {
+  block: RawHtmlBlock;
+  class?: string;
+}
+
+const { block, class: className } = Astro.props;
+---
+
+<div class={`my-6 ${className || ''}`}>
+  <div set:html={block.content} />
+</div>

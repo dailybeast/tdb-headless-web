@@ -1,0 +1,23 @@
+---
+import type { ListBlock } from '@/lib/types';
+
+interface Props {
+  block: ListBlock;
+  class?: string;
+}
+
+const { block, class: className } = Astro.props;
+
+const Tag = block.list_type === 'ordered' ? 'ol' : 'ul';
+const listClasses = block.list_type === 'ordered' 
+  ? 'list-decimal list-inside space-y-2' 
+  : 'list-disc list-inside space-y-2';
+---
+
+<Tag class={`my-6 ${listClasses} ${className || ''}`}>
+  {block.items.map((item) => (
+    <li class="text-foreground">
+      <span set:html={item.content} />
+    </li>
+  ))}
+</Tag>

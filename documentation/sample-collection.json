@@ -1,0 +1,578 @@
+{
+	"_id": "7UC55VJWHZFYBJBLBXEMIM56XA",
+	"version": "0.10.6",
+	"created_date": "2024-09-04T15:09:29.636Z",
+	"headlines": {
+		"basic": "TDB HP Articles"
+	},
+	"last_updated_date": "2025-08-12T13:41:47.956Z",
+	"type": "collection",
+	"canonical_website": "thedailybeast",
+	"content_elements": [
+		{
+			"_id": "4N6GBQJK7FAARAI56SBF75GZLQ",
+			"additional_properties": {},
+			"canonical_website": "thedailybeast",
+			"copyright": "editorial",
+			"credits": {
+				"by": [
+					{
+						"_id": "cameron-adams",
+						"type": "author",
+						"version": "0.5.8",
+						"name": "Cameron Adams",
+						"image": {
+							"url": "https://author-service-images-prod-us-east-1.publishing.aws.arc.pub/thedailybeast/69a0543b-48c8-4644-98ee-cad5da65e021.png",
+							"version": "0.5.8"
+						},
+						"description": "Cameron Adams is a reporter for The Daily Beast. He has covered entertainment at News Corp, written for Rolling Stone and Marie Claire and won an ACRA for work in podcasts and radio.",
+						"url": "",
+						"slug": "cameron-adams",
+						"social_links": [
+							{
+								"site": "email",
+								"url": "cameron.adams@thedailybeast.com"
+							}
+						],
+						"socialLinks": [
+							{
+								"site": "email",
+								"url": "cameron.adams@thedailybeast.com",
+								"deprecated": true,
+								"deprecation_msg": "Please use social_links."
+							}
+						],
+						"additional_properties": {
+							"original": {
+								"_id": "cameron-adams",
+								"firstName": "Cameron",
+								"lastName": "Adams",
+								"byline": "Cameron Adams",
+								"role": "Reporter",
+								"image": "https://author-service-images-prod-us-east-1.publishing.aws.arc.pub/thedailybeast/69a0543b-48c8-4644-98ee-cad5da65e021.png",
+								"email": "cameron.adams@thedailybeast.com",
+								"affiliations": "",
+								"education": [],
+								"awards": [],
+								"books": [],
+								"podcasts": [],
+								"bio_page": "",
+								"bio": "Cameron Adams is a reporter for The Daily Beast. He has covered entertainment at News Corp, written for Rolling Stone and Marie Claire and won an ACRA for work in podcasts and radio.",
+								"longBio": "",
+								"slug": "cameron-adams",
+								"native_app_rendering": false,
+								"fuzzy_match": false,
+								"contributor": false,
+								"status": true,
+								"last_updated_date": "2025-05-22T14:01:12.113Z"
+							}
+						}
+					}
+				]
+			},
+			"description": {
+				"basic": ""
+			},
+			"display_date": "2025-08-12T04:25:28.797Z",
+			"distributor": {
+				"category": "staff",
+				"name": "thedailybeast",
+				"subcategory": ""
+			},
+			"headlines": {
+				"basic": "TACO Trump Backs Out of China Tariffs Hours Before Deadline",
+				"meta_title": "TACO Trump Backs Out of China Tariffs Hours Before Deadline",
+				"mobile": "TACO Trump Backs Out of China Tariffs Hours Before Deadline",
+				"native": "",
+				"print": "",
+				"table": "",
+				"tablet": "",
+				"web": "TACO Trump Backs Out of China Tariffs Hours Before Deadline"
+			},
+			"label": {
+				"rubric": {
+					"display": true,
+					"text": "AGAIN"
+				}
+			},
+			"language": "",
+			"owner": {
+				"sponsored": false
+			},
+			"promo_items": {
+				"1_1": {
+					"_id": "653574TKV5GNXHZW4OA3WU3RZE",
+					"additional_properties": {
+						"countryId": 227,
+						"fullSizeResizeUrl": "/resizer/v2/653574TKV5GNXHZW4OA3WU3RZE.jpg?auth=7ebfd6a7b0a0d501bfb06cff2fabde0a8bd518f464d5fd83933092631dd03bd5",
+						"galleries": [],
+						"ingestionMethod": "manual",
+						"iptc_job_identifier": "776367304",
+						"iptc_source": "Getty Images North America",
+						"iptc_title": "Staff",
+						"mime_type": "image/jpeg",
+						"originalName": "GettyImages-2229120976.jpg",
+						"originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/thedailybeast/653574TKV5GNXHZW4OA3WU3RZE.jpg",
+						"owner": "cameron.adams@thedailybeast.com",
+						"proxyUrl": "/resizer/v2/653574TKV5GNXHZW4OA3WU3RZE.jpg?auth=7ebfd6a7b0a0d501bfb06cff2fabde0a8bd518f464d5fd83933092631dd03bd5",
+						"published": true,
+						"resizeUrl": "/resizer/v2/653574TKV5GNXHZW4OA3WU3RZE.jpg?auth=7ebfd6a7b0a0d501bfb06cff2fabde0a8bd518f464d5fd83933092631dd03bd5",
+						"restricted": false,
+						"takenOn": "2025-08-08T00:00:00Z",
+						"thumbnailResizeUrl": "/resizer/v2/653574TKV5GNXHZW4OA3WU3RZE.jpg?auth=7ebfd6a7b0a0d501bfb06cff2fabde0a8bd518f464d5fd83933092631dd03bd5&width=300",
+						"usage_instructions": "Not Released (NR) ",
+						"version": 1,
+						"template_id": 1305
+					},
+					"address": {
+						"locality": "Washington",
+						"region": "DC",
+						"country_name": "USA"
+					},
+					"alt_text": "WASHINGTON, DC - AUGUST 08:  U.S. President Donald Trump awaits the arrival of Armenian Prime Minister Nikol Pashinyan at the White House on August 8, 2025 in Washington, DC. Trump is scheduled to hold a trilateral signing ceremony with the leaders of Armenia and Azerbaijani to end decades of conflict. (Photo by Andrew Harnik/Getty Images)",
+					"auth": {
+						"1": "7ebfd6a7b0a0d501bfb06cff2fabde0a8bd518f464d5fd83933092631dd03bd5"
+					},
+					"caption": "WASHINGTON, DC - AUGUST 08:  U.S. President Donald Trump awaits the arrival of Armenian Prime Minister Nikol Pashinyan at the White House on August 8, 2025 in Washington, DC. Trump is scheduled to hold a trilateral signing ceremony with the leaders of Armenia and Azerbaijani to end decades of conflict. (Photo by Andrew Harnik/Getty Images)",
+					"copyright": "2025 Getty Images",
+					"created_date": "2025-08-12T02:39:15Z",
+					"credits": {
+						"affiliation": [
+							{
+								"name": "Getty Images",
+								"type": "author"
+							}
+						],
+						"by": [
+							{
+								"byline": "Andrew Harnik",
+								"name": "Andrew Harnik",
+								"type": "author"
+							}
+						]
+					},
+					"height": 546,
+					"image_type": "photograph",
+					"last_updated_date": "2025-08-12T04:25:26Z",
+					"licensable": false,
+					"owner": {
+						"id": "thedailybeast",
+						"sponsored": false
+					},
+					"related_content": {
+						"derivative_of": [
+							{
+								"referent": {
+									"id": "6OZENZ2CHVESLHWRHWXEDRLWGQ",
+									"type": "image"
+								},
+								"type": "reference"
+							}
+						]
+					},
+					"slug": "2229120976",
+					"source": {
+						"additional_properties": {
+							"editor": "photo center"
+						},
+						"edit_url": "https://thedailybeast.arcpublishing.com/photo/653574TKV5GNXHZW4OA3WU3RZE",
+						"system": "photo center"
+					},
+					"subtitle": "President Trump Meets With Leaders Of Armenia And Azerbaijan At The White House",
+					"taxonomy": {
+						"associated_tasks": []
+					},
+					"type": "image",
+					"url": "https://cloudfront-us-east-1.images.arcpublishing.com/thedailybeast/653574TKV5GNXHZW4OA3WU3RZE.jpg",
+					"version": "0.10.9",
+					"width": 546,
+					"syndication": {},
+					"creditIPTC": "Getty Images",
+					"country_name": "United States"
+				},
+				"basic": {
+					"_id": "X2Y6BKDZI5BHFBI63QM7XXPAEM",
+					"additional_properties": {
+						"countryId": 227,
+						"fullSizeResizeUrl": "/resizer/v2/X2Y6BKDZI5BHFBI63QM7XXPAEM.jpg?auth=66ea75fc6d7d979fecc6dd3af08b5e191389b5913bffd7acb6dad8d3e078ba13",
+						"galleries": [],
+						"ingestionMethod": "manual",
+						"iptc_job_identifier": "776367304",
+						"iptc_source": "Getty Images North America",
+						"iptc_title": "Staff",
+						"mime_type": "image/jpeg",
+						"originalName": "GettyImages-2229120976.jpg",
+						"originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/thedailybeast/X2Y6BKDZI5BHFBI63QM7XXPAEM.jpg",
+						"owner": "cameron.adams@thedailybeast.com",
+						"proxyUrl": "/resizer/v2/X2Y6BKDZI5BHFBI63QM7XXPAEM.jpg?auth=66ea75fc6d7d979fecc6dd3af08b5e191389b5913bffd7acb6dad8d3e078ba13",
+						"published": true,
+						"resizeUrl": "/resizer/v2/X2Y6BKDZI5BHFBI63QM7XXPAEM.jpg?auth=66ea75fc6d7d979fecc6dd3af08b5e191389b5913bffd7acb6dad8d3e078ba13",
+						"restricted": false,
+						"takenOn": "2025-08-08T00:00:00Z",
+						"thumbnailResizeUrl": "/resizer/v2/X2Y6BKDZI5BHFBI63QM7XXPAEM.jpg?auth=66ea75fc6d7d979fecc6dd3af08b5e191389b5913bffd7acb6dad8d3e078ba13&width=300",
+						"usage_instructions": "Not Released (NR) ",
+						"version": 1,
+						"template_id": 1305
+					},
+					"address": {
+						"locality": "Washington",
+						"region": "DC",
+						"country_name": "USA"
+					},
+					"alt_text": "WASHINGTON, DC - AUGUST 08:  U.S. President Donald Trump awaits the arrival of Armenian Prime Minister Nikol Pashinyan at the White House on August 8, 2025 in Washington, DC. Trump is scheduled to hold a trilateral signing ceremony with the leaders of Armenia and Azerbaijani to end decades of conflict. (Photo by Andrew Harnik/Getty Images)",
+					"auth": {
+						"1": "66ea75fc6d7d979fecc6dd3af08b5e191389b5913bffd7acb6dad8d3e078ba13"
+					},
+					"caption": "WASHINGTON, DC - AUGUST 08:  U.S. President Donald Trump awaits the arrival of Armenian Prime Minister Nikol Pashinyan at the White House on August 8, 2025 in Washington, DC. Trump is scheduled to hold a trilateral signing ceremony with the leaders of Armenia and Azerbaijani to end decades of conflict. (Photo by Andrew Harnik/Getty Images)",
+					"copyright": "2025 Getty Images",
+					"created_date": "2025-08-12T02:38:55Z",
+					"credits": {
+						"affiliation": [
+							{
+								"name": "Getty Images",
+								"type": "author"
+							}
+						],
+						"by": [
+							{
+								"byline": "Andrew Harnik",
+								"name": "Andrew Harnik",
+								"type": "author"
+							}
+						]
+					},
+					"height": 461,
+					"image_type": "photograph",
+					"last_updated_date": "2025-08-12T04:25:26Z",
+					"licensable": false,
+					"owner": {
+						"id": "thedailybeast",
+						"sponsored": false
+					},
+					"related_content": {
+						"derivative_of": [
+							{
+								"referent": {
+									"id": "6OZENZ2CHVESLHWRHWXEDRLWGQ",
+									"type": "image"
+								},
+								"type": "reference"
+							}
+						]
+					},
+					"slug": "2229120976",
+					"source": {
+						"additional_properties": {
+							"editor": "photo center"
+						},
+						"edit_url": "https://thedailybeast.arcpublishing.com/photo/X2Y6BKDZI5BHFBI63QM7XXPAEM",
+						"system": "photo center"
+					},
+					"subtitle": "President Trump Meets With Leaders Of Armenia And Azerbaijan At The White House",
+					"taxonomy": {
+						"associated_tasks": []
+					},
+					"type": "image",
+					"url": "https://cloudfront-us-east-1.images.arcpublishing.com/thedailybeast/X2Y6BKDZI5BHFBI63QM7XXPAEM.jpg",
+					"version": "0.10.9",
+					"width": 819,
+					"syndication": {},
+					"creditIPTC": "Getty Images",
+					"country_name": "United States"
+				},
+				"video": {
+					"_id": "FB2IKTDD6RD6DOFN4CONT6CYOY",
+					"embed": {
+						"config": {
+							"caption": "",
+							"videoCode": "<script src=\"https://cdn.jwplayer.com/players/ykPNd5eC-AjIcq1uW.js\"></script>"
+						},
+						"id": "custom_powerup_1754971405847",
+						"url": "/"
+					},
+					"subtype": "videoplayer",
+					"type": "custom_embed"
+				}
+			},
+			"publish_date": "2025-08-12T08:45:47.736Z",
+			"revision": {
+				"published": true,
+				"revision_id": "DXT4FIJEL5BOFGFJ5NZUO6IOBY"
+			},
+			"subheadlines": {
+				"basic": "The art of the deal apparently takes time."
+			},
+			"subtype": "standard-tdb",
+			"taxonomy": {
+				"primary_section": {
+					"_id": "/politics",
+					"_website": "thedailybeast",
+					"type": "section",
+					"version": "0.6.0",
+					"name": "Politics",
+					"path": "/politics",
+					"parent_id": "/",
+					"parent": {
+						"default": "/"
+					},
+					"additional_properties": {
+						"original": {
+							"_id": "/politics",
+							"_website": "thedailybeast",
+							"name": "Politics",
+							"inactive": false,
+							"ancestors": {
+								"default": ["/"],
+								"composer": ["/"],
+								"bottomNav": ["/"],
+								"bottomNavFooter": ["/"],
+								"footerNavMobile": ["/"],
+								"burgerNav": ["/"],
+								"footerNav": ["/"]
+							},
+							"parent": {
+								"default": "/",
+								"composer": "/",
+								"bottomNav": "/",
+								"bottomNavFooter": "/",
+								"footerNavMobile": "/",
+								"burgerNav": "/",
+								"footerNav": "/"
+							},
+							"order": {
+								"default": 1010,
+								"composer": 1005,
+								"bottomNavFooter": 1002,
+								"footerNavMobile": 1002,
+								"burgerNav": 1002,
+								"footerNav": 1002,
+								"bottomNav": 1005
+							},
+							"meta_description": "From breaking news to in-depth analysis and opinion on elections, candidates, Congress and the courts, stay informed with the latest politics news from The Daily Beast.",
+							"meta_title": "Politics News, Analysis & Opinion - The Daily Beast",
+							"subtitle": "NON-PARTISAN, BUT NOT NEUTRAL",
+							"node_type": "section"
+						}
+					},
+					"_website_section_id": "thedailybeast./politics"
+				},
+				"primary_site": {
+					"_id": "/politics",
+					"type": "site",
+					"version": "0.5.8",
+					"name": "Politics",
+					"path": "/politics",
+					"parent_id": "/",
+					"additional_properties": {
+						"original": {
+							"_id": "/politics",
+							"name": "Politics",
+							"inactive": false,
+							"ancestors": {
+								"default": ["/"],
+								"composer": ["/"],
+								"bottomNav": ["/"],
+								"bottomNavFooter": ["/"],
+								"footerNavMobile": ["/"],
+								"burgerNav": ["/"],
+								"footerNav": ["/"]
+							},
+							"parent": {
+								"default": "/",
+								"composer": "/",
+								"bottomNav": "/",
+								"bottomNavFooter": "/",
+								"footerNavMobile": "/",
+								"burgerNav": "/",
+								"footerNav": "/"
+							},
+							"order": {
+								"default": 1010,
+								"composer": 1005,
+								"bottomNavFooter": 1002,
+								"footerNavMobile": 1002,
+								"burgerNav": 1002,
+								"footerNav": 1002,
+								"bottomNav": 1005
+							},
+							"meta_description": "From breaking news to in-depth analysis and opinion on elections, candidates, Congress and the courts, stay informed with the latest politics news from The Daily Beast.",
+							"meta_title": "Politics News, Analysis & Opinion - The Daily Beast",
+							"subtitle": "NON-PARTISAN, BUT NOT NEUTRAL",
+							"node_type": "section"
+						}
+					}
+				},
+				"sections": [
+					{
+						"_id": "/politics",
+						"_website": "thedailybeast",
+						"type": "section",
+						"version": "0.6.0",
+						"name": "Politics",
+						"path": "/politics",
+						"parent_id": "/",
+						"parent": {
+							"default": "/"
+						},
+						"additional_properties": {
+							"original": {
+								"_id": "/politics",
+								"_website": "thedailybeast",
+								"name": "Politics",
+								"inactive": false,
+								"ancestors": {
+									"default": ["/"],
+									"composer": ["/"],
+									"bottomNav": ["/"],
+									"bottomNavFooter": ["/"],
+									"footerNavMobile": ["/"],
+									"burgerNav": ["/"],
+									"footerNav": ["/"]
+								},
+								"parent": {
+									"default": "/",
+									"composer": "/",
+									"bottomNav": "/",
+									"bottomNavFooter": "/",
+									"footerNavMobile": "/",
+									"burgerNav": "/",
+									"footerNav": "/"
+								},
+								"order": {
+									"default": 1010,
+									"composer": 1005,
+									"bottomNavFooter": 1002,
+									"footerNavMobile": 1002,
+									"burgerNav": 1002,
+									"footerNav": 1002,
+									"bottomNav": 1005
+								},
+								"meta_description": "From breaking news to in-depth analysis and opinion on elections, candidates, Congress and the courts, stay informed with the latest politics news from The Daily Beast.",
+								"meta_title": "Politics News, Analysis & Opinion - The Daily Beast",
+								"subtitle": "NON-PARTISAN, BUT NOT NEUTRAL",
+								"node_type": "section"
+							}
+						},
+						"_website_section_id": "thedailybeast./politics"
+					}
+				],
+				"sites": [
+					{
+						"_id": "/politics",
+						"type": "site",
+						"version": "0.5.8",
+						"name": "Politics",
+						"path": "/politics",
+						"parent_id": "/",
+						"additional_properties": {
+							"original": {
+								"_id": "/politics",
+								"name": "Politics",
+								"inactive": false,
+								"ancestors": {
+									"default": ["/"],
+									"composer": ["/"],
+									"bottomNav": ["/"],
+									"bottomNavFooter": ["/"],
+									"footerNavMobile": ["/"],
+									"burgerNav": ["/"],
+									"footerNav": ["/"]
+								},
+								"parent": {
+									"default": "/",
+									"composer": "/",
+									"bottomNav": "/",
+									"bottomNavFooter": "/",
+									"footerNavMobile": "/",
+									"burgerNav": "/",
+									"footerNav": "/"
+								},
+								"order": {
+									"default": 1010,
+									"composer": 1005,
+									"bottomNavFooter": 1002,
+									"footerNavMobile": 1002,
+									"burgerNav": 1002,
+									"footerNav": 1002,
+									"bottomNav": 1005
+								},
+								"meta_description": "From breaking news to in-depth analysis and opinion on elections, candidates, Congress and the courts, stay informed with the latest politics news from The Daily Beast.",
+								"meta_title": "Politics News, Analysis & Opinion - The Daily Beast",
+								"subtitle": "NON-PARTISAN, BUT NOT NEUTRAL",
+								"node_type": "section"
+							}
+						}
+					}
+				],
+				"tags": [
+					{
+						"_id": "LGKC23SPSZHTNFYFBGT42MFFUA",
+						"description": "Donald J. Trump",
+						"slug": "donald-j-trump",
+						"text": "Donald J. Trump"
+					}
+				]
+			},
+			"type": "story",
+			"version": "0.10.11",
+			"websites": {
+				"thedailybeast": {
+					"website_section": {
+						"_id": "/politics",
+						"_website": "thedailybeast",
+						"type": "section",
+						"version": "0.6.0",
+						"name": "Politics",
+						"path": "/politics",
+						"parent_id": "/",
+						"parent": {
+							"default": "/"
+						},
+						"additional_properties": {
+							"original": {
+								"_id": "/politics",
+								"_website": "thedailybeast",
+								"name": "Politics",
+								"inactive": false,
+								"ancestors": {
+									"default": ["/"],
+									"composer": ["/"],
+									"bottomNav": ["/"],
+									"bottomNavFooter": ["/"],
+									"footerNavMobile": ["/"],
+									"burgerNav": ["/"],
+									"footerNav": ["/"]
+								},
+								"parent": {
+									"default": "/",
+									"composer": "/",
+									"bottomNav": "/",
+									"bottomNavFooter": "/",
+									"footerNavMobile": "/",
+									"burgerNav": "/",
+									"footerNav": "/"
+								},
+								"order": {
+									"default": 1010,
+									"composer": 1005,
+									"bottomNavFooter": 1002,
+									"footerNavMobile": 1002,
+									"burgerNav": 1002,
+									"footerNav": 1002,
+									"bottomNav": 1005
+								},
+								"meta_description": "From breaking news to in-depth analysis and opinion on elections, candidates, Congress and the courts, stay informed with the latest politics news from The Daily Beast.",
+								"meta_title": "Politics News, Analysis & Opinion - The Daily Beast",
+								"subtitle": "NON-PARTISAN, BUT NOT NEUTRAL",
+								"node_type": "section"
+							}
+						},
+						"_website_section_id": "thedailybeast./politics"
+					},
+					"website_url": "/taco-trump-backs-out-of-china-tariffs-hours-before-deadline/"
+				}
+			},
+			"canonical_url": "/taco-trump-backs-out-of-china-tariffs-hours-before-deadline/"
+		}
+	]
+}

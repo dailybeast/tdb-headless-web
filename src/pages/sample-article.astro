@@ -1,0 +1,278 @@
+---
+import Layout from '@/components/layout/Layout.astro';
+import ContentRenderer from '@/components/blocks/ContentRenderer.astro';
+import type { Article } from '@/lib/types';
+
+const sampleArticle: Article = {
+  _id: 'sample-1',
+  headlines: {
+    basic: 'This Is a Sample Article Demonstrating All Content Types',
+    meta_title: 'Sample Article - The Looker',
+    mobile: 'Sample Article Demo',
+    native: '',
+    print: '',
+    table: '',
+    tablet: '',
+    web: 'Sample Article Demonstration'
+  },
+  subheadlines: {
+    basic: 'A comprehensive showcase of how different content elements render in our system'
+  },
+  canonical_url: '/sample-article',
+  display_date: new Date().toISOString(),
+  credits: {
+    by: [{
+      _id: 'demo-author',
+      name: 'Demo Author',
+      slug: 'demo-author',
+      type: 'author',
+      version: '1.0',
+      description: 'A demonstration author for testing purposes',
+      social_links: [],
+      socialLinks: [],
+      additional_properties: {
+        original: {
+          _id: 'demo-author',
+          slug: 'demo-author',
+          byline: 'Demo Author',
+          firstName: 'Demo',
+          lastName: 'Author',
+          bio: 'Testing author',
+          last_updated_date: new Date().toISOString()
+        }
+      }
+    }]
+  },
+  content_elements: [
+    {
+      _id: '1',
+      type: 'text',
+      additional_properties: {},
+      content: 'This is the opening paragraph of our sample article. It demonstrates how regular text content is rendered with proper typography and spacing. The text should be readable and well-formatted.'
+    },
+    {
+      _id: '2',
+      type: 'header',
+      additional_properties: {},
+      content: 'This is a Level 2 Header',
+      level: 2
+    },
+    {
+      _id: '3',
+      type: 'text',
+      additional_properties: {},
+      content: 'After the header, we continue with more body text. This paragraph follows the header and demonstrates the spacing between different content elements. <a href="#test">Links should be styled</a> appropriately and <strong>bold text</strong> should stand out.'
+    },
+    {
+      _id: '4',
+      type: 'quote',
+      additional_properties: {},
+      subtype: 'pullquote',
+      citation: {
+        content: 'Notable Person',
+        type: 'text'
+      },
+      content_elements: [{
+        _id: '4a',
+        type: 'text',
+        additional_properties: {},
+        content: 'This is a pullquote that stands out from the regular content. It should be visually distinct and draw the reader\'s attention.'
+      }]
+    },
+    {
+      _id: '5',
+      type: 'header',
+      additional_properties: {},
+      content: 'Level 3 Subheader Example',
+      level: 3
+    },
+    {
+      _id: '6',
+      type: 'text',
+      additional_properties: {},
+      content: 'Here we have text following a level 3 header. The hierarchy should be clear and the typography should create a good reading experience.'
+    },
+    {
+      _id: '7',
+      type: 'list',
+      additional_properties: {},
+      list_type: 'unordered',
+      items: [
+        {
+          _id: '7a',
+          additional_properties: { indent: 0 },
+          alignment: 'left',
+          content: 'First bullet point in an unordered list',
+          type: 'text'
+        },
+        {
+          _id: '7b',
+          additional_properties: { indent: 0 },
+          alignment: 'left',
+          content: 'Second bullet point with more content',
+          type: 'text'
+        },
+        {
+          _id: '7c',
+          additional_properties: { indent: 0 },
+          alignment: 'left',
+          content: 'Third bullet point to show list formatting',
+          type: 'text'
+        }
+      ]
+    },
+    {
+      _id: '8',
+      type: 'quote',
+      additional_properties: {},
+      subtype: 'blockquote',
+      citation: {
+        content: 'Another Source',
+        type: 'text'
+      },
+      content_elements: [{
+        _id: '8a',
+        type: 'text',
+        additional_properties: {},
+        content: 'This is a regular blockquote, different from a pullquote. It should have its own distinct styling that differentiates it from both regular text and pullquotes.'
+      }]
+    },
+    {
+      _id: '9',
+      type: 'text',
+      additional_properties: {},
+      content: 'This concluding paragraph wraps up our sample article. It demonstrates how the content flows naturally from one element to the next, creating a cohesive reading experience.'
+    }
+  ],
+  additional_properties: {
+    has_published_copy: true,
+    is_published: true,
+    publish_date: new Date().toISOString()
+  },
+  address: {},
+  canonical_website: 'thelooker',
+  copyright: 'editorial',
+  created_date: new Date().toISOString(),
+  description: { basic: 'Sample article description' },
+  distributor: { category: 'staff', name: 'thelooker', subcategory: '' },
+  geo: {},
+  label: { rubric: { display: true, text: 'DEMO' } },
+  language: 'en',
+  last_updated_date: new Date().toISOString(),
+  owner: { sponsored: false },
+  promo_items: {
+    basic: {
+      _id: 'demo-image',
+      url: 'https://via.placeholder.com/1200x800/333/fff?text=Sample+Article+Image',
+      alt_text: 'Sample article image',
+      type: 'image',
+      additional_properties: {}
+    }
+  },
+  publish_date: new Date().toISOString(),
+  revision: {
+    branch: 'default',
+    editions: ['default'],
+    published: true,
+    revision_id: 'demo-revision'
+  },
+  source: { name: 'thelooker', source_type: 'staff', system: 'demo' },
+  subtype: 'standard',
+  taxonomy: {
+    primary_section: {
+      _id: '/demo',
+      type: 'section',
+      version: '1.0',
+      name: 'Demo',
+      path: '/demo',
+      parent_id: '/'
+    },
+    tags: [
+      { description: 'Demo', slug: 'demo', text: 'Demo' },
+      { description: 'Sample', slug: 'sample', text: 'Sample' }
+    ]
+  },
+  type: 'story',
+  version: '1.0',
+  websites: {
+    thelooker: {
+      website_url: '/sample-article'
+    }
+  }
+};
+
+function formatDate(dateString: string): string {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', { 
+    month: 'long', 
+    day: 'numeric', 
+    year: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit'
+  });
+}
+---
+
+<Layout title={sampleArticle.headlines.meta_title} description={sampleArticle.description.basic}>
+  <article class="container mx-auto px-4 py-8">
+    <header class="mb-8 max-w-4xl mx-auto">
+      {sampleArticle.label?.rubric?.display && (
+        <div class="text-sm text-primary font-medium uppercase tracking-wide mb-4">
+          {sampleArticle.label.rubric.text}
+        </div>
+      )}
+      
+      <h1 class="text-4xl lg:text-5xl font-bold font-druk leading-tight mb-4">
+        {sampleArticle.headlines.basic}
+      </h1>
+      
+      <p class="text-xl text-muted-foreground leading-relaxed mb-6">
+        {sampleArticle.subheadlines.basic}
+      </p>
+      
+      <div class="flex items-center space-x-4 text-sm text-muted-foreground mb-8">
+        <div>
+          By <span class="font-medium">{sampleArticle.credits.by[0].name}</span>
+        </div>
+        <span>•</span>
+        <time>{formatDate(sampleArticle.display_date)}</time>
+        {sampleArticle.taxonomy.primary_section && (
+          <>
+            <span>•</span>
+            <span>{sampleArticle.taxonomy.primary_section.name}</span>
+          </>
+        )}
+      </div>
+      
+      {sampleArticle.promo_items.basic && (
+        <div class="aspect-[16/9] mb-8 overflow-hidden rounded-lg">
+          <img 
+            src={sampleArticle.promo_items.basic.url}
+            alt={sampleArticle.promo_items.basic.alt_text}
+            class="w-full h-full object-cover"
+          />
+        </div>
+      )}
+    </header>
+    
+    <div class="max-w-3xl mx-auto">
+      <ContentRenderer contentElements={sampleArticle.content_elements} />
+    </div>
+    
+    {sampleArticle.taxonomy.tags && sampleArticle.taxonomy.tags.length > 0 && (
+      <footer class="max-w-3xl mx-auto mt-12 pt-8 border-t border-border">
+        <div class="text-sm text-muted-foreground mb-3">Tags:</div>
+        <div class="flex flex-wrap gap-2">
+          {sampleArticle.taxonomy.tags.map((tag) => (
+            <a 
+              href={`/tags/${tag.slug}`}
+              class="inline-block px-3 py-1 bg-muted text-muted-foreground rounded-full text-sm hover:bg-muted/80 transition-colors"
+            >
+              {tag.text}
+            </a>
+          ))}
+        </div>
+      </footer>
+    )}
+  </article>
+</Layout>

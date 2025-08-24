@@ -1,0 +1,58 @@
+---
+import Header from './Header.astro';
+import Footer from './Footer.astro';
+import '@/styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+  class?: string;
+}
+
+const { 
+  title, 
+  description = 'The latest news, analysis, and opinion from The Looker',
+  image = '/The-Looker-Logo.svg',
+  class: className 
+} = Astro.props;
+
+const canonicalURL = Astro.site ? new URL(Astro.url.pathname, Astro.site) : Astro.url;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    
+    <title>{title}</title>
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={image} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="The Looker" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href={canonicalURL} />
+  </head>
+  <body class="min-h-screen bg-background font-sans antialiased">
+    <Header />
+    <main class={`flex-1 ${className || ''}`}>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

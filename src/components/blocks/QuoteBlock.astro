@@ -1,0 +1,36 @@
+---
+import type { QuoteBlock } from '@/lib/types';
+
+interface Props {
+  block: QuoteBlock;
+  class?: string;
+}
+
+const { block, class: className } = Astro.props;
+
+const isPullquote = block.subtype === 'pullquote';
+const content = block.content_elements?.[0]?.content || '';
+const citation = block.citation?.content;
+---
+
+{isPullquote ? (
+  <aside class={`my-8 border-l-4 border-primary pl-6 ${className || ''}`}>
+    <blockquote class="text-xl font-semibold italic text-foreground">
+      <div set:html={content} />
+    </blockquote>
+    {citation && (
+      <cite class="mt-2 block text-sm text-muted-foreground not-italic">
+        — {citation}
+      </cite>
+    )}
+  </aside>
+) : (
+  <blockquote class={`my-6 border-l-4 border-muted pl-6 ${className || ''}`}>
+    <div class="text-lg italic text-muted-foreground" set:html={content} />
+    {citation && (
+      <cite class="mt-2 block text-sm text-muted-foreground not-italic">
+        — {citation}
+      </cite>
+    )}
+  </blockquote>
+)}

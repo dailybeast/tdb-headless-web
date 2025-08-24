@@ -1,0 +1,23 @@
+---
+import type { HeaderBlock } from '@/lib/types';
+
+interface Props {
+  block: HeaderBlock;
+  class?: string;
+}
+
+const { block, class: className } = Astro.props;
+
+const Tag = `h${block.level}` as keyof HTMLElementTagNameMap;
+const headerClasses = {
+  2: 'text-3xl font-bold font-druk mb-6 mt-8',
+  3: 'text-2xl font-bold font-druk mb-4 mt-6',
+  4: 'text-xl font-bold font-druk mb-3 mt-5',
+  5: 'text-lg font-bold font-druk mb-2 mt-4',
+  6: 'text-base font-bold font-druk mb-2 mt-3'
+};
+---
+
+<Tag class={`${headerClasses[block.level]} ${className || ''}`}>
+  {block.content}
+</Tag>

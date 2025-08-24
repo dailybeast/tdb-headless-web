@@ -1,16 +1,279 @@
 ---
+import Layout from '@/components/layout/Layout.astro';
+import { api } from '@/lib/api';
+import type { Article } from '@/lib/types';
 
+let articles: Article[] = [];
+let error: string | null = null;
+
+try {
+  // Try to fetch homepage collection first
+  const collectionResponse = await api.getCollection('homepage', { by: 'alias' });
+  
+  if (collectionResponse.data?.content_elements && Array.isArray(collectionResponse.data.content_elements)) {
+    articles = collectionResponse.data.content_elements;
+  } else {
+    // Fallback to listing stories
+    const storiesResponse = await api.listStories({ limit: 12 });
+    if (storiesResponse.data && Array.isArray(storiesResponse.data)) {
+      articles = storiesResponse.data;
+    }
+  }
+} catch (err) {
+  console.error('Error fetching articles:', err);
+  error = err instanceof Error ? err.message : 'Failed to load articles';
+  
+  // Use mock data as fallback
+  articles = [
+    {
+      _id: '1',
+      headlines: { basic: 'Breaking: Major Political Development Unfolds', meta_title: '', mobile: '', native: '', print: '', table: '', tablet: '', web: '' },
+      subheadlines: { basic: 'Sources close to the matter reveal unprecedented changes ahead' },
+      canonical_url: '/breaking-political-development',
+      website_url: '/breaking-political-development',
+      display_date: new Date().toISOString(),
+      credits: {
+        by: [{ 
+          _id: '1',
+          name: 'Political Correspondent', 
+          slug: 'political-correspondent',
+          type: 'author',
+          version: '1.0',
+          description: '',
+          social_links: [],
+          socialLinks: [],
+          additional_properties: {
+            original: {
+              _id: '1',
+              slug: 'political-correspondent',
+              byline: 'Political Correspondent',
+              firstName: 'Political',
+              lastName: 'Correspondent',
+              bio: '',
+              last_updated_date: new Date().toISOString()
+            }
+          }
+        }]
+      },
+      promo_items: {
+        basic: {
+          _id: '1',
+          url: 'https://via.placeholder.com/800x600/333/fff?text=Breaking+News',
+          alt_text: 'Breaking news image',
+          type: 'image',
+          version: '1.0',
+          additional_properties: {}
+        }
+      },
+      taxonomy: {
+        primary_section: { 
+          _id: '/politics',
+          name: 'Politics', 
+          path: '/politics',
+          type: 'section',
+          version: '1.0',
+          parent_id: '/'
+        }
+      },
+      additional_properties: { has_published_copy: true, is_published: true, publish_date: new Date().toISOString() },
+      address: {},
+      canonical_website: 'thelooker',
+      content_elements: [],
+      copyright: '',
+      created_date: new Date().toISOString(),
+      description: { basic: '' },
+      distributor: { category: '', name: '', subcategory: '' },
+      geo: {},
+      language: '',
+      last_updated_date: new Date().toISOString(),
+      owner: { sponsored: false },
+      publish_date: new Date().toISOString(),
+      revision: { branch: '', editions: [], published: true, revision_id: '' },
+      source: { name: '', source_type: '', system: '' },
+      subtype: '',
+      type: 'story',
+      version: '1.0',
+      websites: {}
+    } as Article
+  ];
+}
+
+function formatDate(dateString: string): string {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', { 
+    month: 'long', 
+    day: 'numeric', 
+    year: 'numeric' 
+  });
+}
+
+function getArticleUrl(article: Article): string {
+  return article.website_url || article.canonical_url || `/article/${article._id}`;
+}
+
+function getImageUrl(article: Article): string {
+  if (article.promo_items?.basic?.url) {
+    return article.promo_items.basic.url;
+  }
+  if (article.promo_items?.basic?.additional_properties?.originalUrl) {
+    return article.promo_items.basic.additional_properties.originalUrl;
+  }
+  return 'https://via.placeholder.com/800x600/666/fff?text=No+Image';
+}
+
+// Ensure articles is an array
+if (!Array.isArray(articles)) {
+  articles = [];
+}
+
+const heroArticle = articles[0];
+const sideArticles = articles.slice(1, 3);
+const latestArticles = articles.slice(3, 12);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="The Looker - Sharp. Fearless. Essential.">
+  <div class="container mx-auto px-4 py-8">
+    {error && (
+      <div class="mb-8 p-4 bg-destructive/10 text-destructive rounded-lg">
+        <p class="font-semibold">Unable to load latest content</p>
+        <p class="text-sm mt-1">Showing sample content. {error}</p>
+      </div>
+    )}
+    
+    {heroArticle && (
+      <section class="mb-12">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <article class="lg:col-span-1">
+            <a href={getArticleUrl(heroArticle)} class="block group">
+              <div class="aspect-[16/10] mb-4 overflow-hidden rounded-lg bg-muted">
+                <img 
+                  src={getImageUrl(heroArticle)}
+                  alt={heroArticle.promo_items?.basic?.alt_text || heroArticle.headlines.basic}
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  loading="eager"
+                />
+              </div>
+              <div class="space-y-2">
+                {heroArticle.taxonomy?.primary_section && (
+                  <div class="text-sm text-primary font-medium uppercase tracking-wide">
+                    {heroArticle.taxonomy.primary_section.name}
+                  </div>
+                )}
+                <h1 class="text-3xl lg:text-4xl font-bold font-druk leading-tight group-hover:text-primary transition-colors">
+                  {heroArticle.headlines.basic}
+                </h1>
+                {heroArticle.subheadlines?.basic && (
+                  <p class="text-lg text-muted-foreground">
+                    {heroArticle.subheadlines.basic}
+                  </p>
+                )}
+                <div class="flex items-center text-sm text-muted-foreground mt-4">
+                  {heroArticle.credits?.by?.[0]?.name && (
+                    <>
+                      <span>By {heroArticle.credits.by[0].name}</span>
+                      <span class="mx-2">•</span>
+                    </>
+                  )}
+                  <time>{formatDate(heroArticle.display_date || heroArticle.publish_date)}</time>
+                </div>
+              </div>
+            </a>
+          </article>
+          
+          <div class="lg:col-span-1 space-y-6">
+            {sideArticles.map((article) => article && (
+              <article>
+                <a href={getArticleUrl(article)} class="block group">
+                  <div class="grid grid-cols-3 gap-4">
+                    <div class="col-span-1">
+                      <div class="aspect-square overflow-hidden rounded-lg bg-muted">
+                        <img 
+                          src={getImageUrl(article)}
+                          alt={article.promo_items?.basic?.alt_text || article.headlines.basic}
+                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                          loading="lazy"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-span-2 space-y-2">
+                      {article.taxonomy?.primary_section && (
+                        <div class="text-xs text-primary font-medium uppercase tracking-wide">
+                          {article.taxonomy.primary_section.name}
+                        </div>
+                      )}
+                      <h2 class="text-lg font-bold font-druk leading-tight group-hover:text-primary transition-colors">
+                        {article.headlines.basic}
+                      </h2>
+                      {article.subheadlines?.basic && (
+                        <p class="text-sm text-muted-foreground line-clamp-2">
+                          {article.subheadlines.basic}
+                        </p>
+                      )}
+                      <div class="flex items-center text-xs text-muted-foreground">
+                        {article.credits?.by?.[0]?.name && (
+                          <>
+                            <span>By {article.credits.by[0].name}</span>
+                            <span class="mx-2">•</span>
+                          </>
+                        )}
+                        <time>{formatDate(article.display_date || article.publish_date)}</time>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    {latestArticles.length > 0 && (
+      <section>
+        <div class="border-t border-border pt-8">
+          <h2 class="text-2xl font-bold font-druk mb-6">Latest Stories</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {latestArticles.map((article) => article && (
+              <article>
+                <a href={getArticleUrl(article)} class="block group">
+                  <div class="aspect-[16/10] mb-4 overflow-hidden rounded-lg bg-muted">
+                    <img 
+                      src={getImageUrl(article)}
+                      alt={article.promo_items?.basic?.alt_text || article.headlines.basic}
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="space-y-2">
+                    {article.taxonomy?.primary_section && (
+                      <div class="text-xs text-primary font-medium uppercase tracking-wide">
+                        {article.taxonomy.primary_section.name}
+                      </div>
+                    )}
+                    <h3 class="text-xl font-bold font-druk leading-tight group-hover:text-primary transition-colors line-clamp-2">
+                      {article.headlines.basic}
+                    </h3>
+                    {article.subheadlines?.basic && (
+                      <p class="text-sm text-muted-foreground line-clamp-2">
+                        {article.subheadlines.basic}
+                      </p>
+                    )}
+                    <div class="flex items-center text-xs text-muted-foreground mt-3">
+                      {article.credits?.by?.[0]?.name && (
+                        <>
+                          <span>By {article.credits.by[0].name}</span>
+                          <span class="mx-2">•</span>
+                        </>
+                      )}
+                      <time>{formatDate(article.display_date || article.publish_date)}</time>
+                    </div>
+                  </div>
+                </a>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+  </div>
+</Layout>

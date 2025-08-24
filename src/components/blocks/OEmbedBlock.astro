@@ -1,0 +1,26 @@
+---
+import type { OEmbedBlock } from '@/lib/types';
+
+interface Props {
+  block: OEmbedBlock;
+  class?: string;
+}
+
+const { block, class: className } = Astro.props;
+
+const embedHtml = block.raw_oembed?.html || '';
+const title = block.raw_oembed?.title;
+const provider = block.raw_oembed?.provider_name;
+---
+
+<div class={`my-8 ${className || ''}`}>
+  <div class="aspect-video w-full overflow-hidden rounded-lg bg-muted">
+    <div set:html={embedHtml} />
+  </div>
+  {title && (
+    <div class="mt-3 text-sm text-muted-foreground">
+      <div class="font-medium">{title}</div>
+      {provider && <div class="text-xs">via {provider}</div>}
+    </div>
+  )}
+</div>

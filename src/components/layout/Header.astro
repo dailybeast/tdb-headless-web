@@ -1,0 +1,54 @@
+---
+import { MobileNav } from './MobileNav';
+import { UserAccount } from '../auth/UserAccount';
+
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
+
+const navLinks = [
+  { href: '/politics', label: 'Politics' },
+  { href: '/world', label: 'World' },
+  { href: '/entertainment', label: 'Entertainment' },
+  { href: '/culture', label: 'Culture' },
+  { href: '/opinion', label: 'Opinion' },
+  { href: '/tech', label: 'Tech' },
+];
+---
+
+<header class={`bg-white border-b border-border sticky top-0 z-50 ${className || ''}`}>
+  <div class="container mx-auto px-4 py-4">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center space-x-4">
+        <a href="/" class="flex items-center">
+          <img 
+            src="/The-Looker-Logo.svg" 
+            alt="The Looker" 
+            class="h-8 w-auto"
+          />
+        </a>
+      </div>
+      
+      <!-- Desktop Navigation -->
+      <nav class="hidden md:flex items-center space-x-6">
+        {navLinks.map(link => (
+          <a href={link.href} class="text-foreground hover:text-primary transition-colors font-medium">
+            {link.label}
+          </a>
+        ))}
+      </nav>
+      
+      <!-- User Account -->
+      <div class="flex items-center space-x-4">
+        <UserAccount client:load />
+        
+        <!-- Mobile Navigation using Shadcn Sheet -->
+        <div class="md:hidden">
+          <MobileNav navLinks={navLinks} client:load />
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
